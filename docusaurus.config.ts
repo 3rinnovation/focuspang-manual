@@ -5,7 +5,7 @@ import type * as Preset from "@docusaurus/preset-classic";
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: "My Site",
+  title: "focuspang ai guide",
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
@@ -39,8 +39,8 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          // editUrl:
+          //   "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         },
         blog: {
           showReadingTime: true,
@@ -74,20 +74,13 @@ const config: Config = {
         src: "img/focuspang_ai.svg",
       },
       items: [
-        // {
-        //   type: "docSidebar",
-        //   sidebarId: "tutorialSidebar",
-        //   position: "left",
-        //   label: "Tutorial",
-        // },
-        { to: "/blog", label: "Blog", position: "left" },
         {
-          to: "/guide",
           type: "docSidebar",
           sidebarId: "guideSidebar",
-          label: "포커스팡 가이드",
           position: "left",
+          label: "포커스팡 가이드",
         },
+        { to: "/blog", label: "Blog", position: "left" },
       ],
     },
     footer: {

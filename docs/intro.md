@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# 포커스팡 사용 설명서
 
 Let's discover **Docusaurus in less than 5 minutes**.
 
