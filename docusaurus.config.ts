@@ -18,7 +18,7 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  projectName: "focuspang-manual", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -72,6 +72,7 @@ const config: Config = {
       logo: {
         alt: "focuspang_ai logo",
         src: "img/focuspang_ai.svg",
+        href: "/docs/admin-guide/feature",
       },
       items: [
         {
@@ -80,35 +81,34 @@ const config: Config = {
           position: "left",
           label: "포커스팡 가이드",
         },
-        { to: "/blog", label: "Blog", position: "left" },
       ],
     },
     footer: {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "Guide",
           items: [
             {
-              label: "Tutorial",
-              to: "/docs/intro",
+              label: "포커스팡 가이드",
+              to: "/docs/admin-guide/feature",
             },
           ],
         },
         {
-          title: "Community",
+          title: "포커스팡",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              label: "관리자용 포커스팡",
+              href: "https://admin.focuspang.com/",
             },
             {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "선생님용 포커스팡",
+              href: "https://teacher.focuspang.com/",
             },
             {
-              label: "X",
-              href: "https://x.com/docusaurus",
+              label: "학생용 포커스팡",
+              href: "https://student.focuspang.com/",
             },
           ],
         },
@@ -116,17 +116,17 @@ const config: Config = {
           title: "More",
           items: [
             {
-              label: "Blog",
-              to: "/blog",
+              label: "포커스팡 공식 홈페이지",
+              href: "https://focuspang.com/",
             },
             {
-              label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              label: "포커스팡 즉문즉답",
+              href: "https://focuspang.com/ask.html",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `© 3R Innovation Inc. All rights reserved.`,
     },
     prism: {
       theme: prismThemes.github,
