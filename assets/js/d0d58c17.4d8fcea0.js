@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfocuspang_manual=self.webpackChunkfocuspang_manual||[]).push([[2609],{3248:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/focuspang-manual/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
