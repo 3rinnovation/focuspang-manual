@@ -11,7 +11,7 @@ import { Redirect } from "@docusaurus/router";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Redirect to={"/docs/admin-guide/feature"} />
+    <Redirect to={`${siteConfig.baseUrl}docs/admin-guide/feature`} />
     // <header className={clsx("hero hero--primary", styles.heroBanner)}>
     //   <div className="container">
     //     <Heading as="h1" className="hero__title">

@@ -10,15 +10,15 @@ const config: Config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://3rinnovation.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/focuspang-manual",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "3rinnovation", // Usually your GitHub org/user name.
-  projectName: "focuspang-manual.github.io", // Usually your repo name.
+  projectName: "focuspang-manual", // Usually your repo name.
   deploymentBranch: "gh-pages",
   trailingSlash: false,
   onBrokenLinks: "throw",
