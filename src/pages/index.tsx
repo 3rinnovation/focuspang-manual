@@ -6,26 +6,28 @@ import HomepageFeatures from "@site/src/components/HomepageFeatures";
 import Heading from "@theme/Heading";
 
 import styles from "./index.module.css";
+import { Redirect } from "@docusaurus/router";
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <header className={clsx("hero hero--primary", styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
-    </header>
+    <Redirect to={"/docs/admin-guide/feature"} />
+    // <header className={clsx("hero hero--primary", styles.heroBanner)}>
+    //   <div className="container">
+    //     <Heading as="h1" className="hero__title">
+    //       포커스팡에 오신 것을 환영합니다
+    //     </Heading>
+    //     <p className="hero__subtitle"></p>
+    //     <div className={styles.buttons}>
+    //       <Link
+    //         className="button button--secondary button--lg"
+    //         to="/docs/admin-guide/feature"
+    //       >
+    //         포커스팡 사용 가이드
+    //       </Link>
+    //     </div>
+    //   </div>
+    // </header>
   );
 }
 

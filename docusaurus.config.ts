@@ -72,7 +72,6 @@ const config: Config = {
       logo: {
         alt: "focuspang_ai logo",
         src: "img/focuspang_ai.svg",
-        href: "/docs/admin-guide/feature",
       },
       items: [
         {
