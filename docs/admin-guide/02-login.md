@@ -1,3 +1,7 @@
+---
+title: 1.2
+---
+
 # 1.2 로그인
 
 1. 관리자용 포커스팡 사이트 (https://admin.focuspang.com)에 접속합니다.

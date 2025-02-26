@@ -1,3 +1,7 @@
+---
+title: 3.3
+---
+
 # 3.3 윈도우용 설치 안내
 
 1. 윈도우용 exe파일을 다운로드합니다. https://focuspang.com/_dn_.html#MS
