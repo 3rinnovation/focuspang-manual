@@ -1,14 +1,17 @@
 ---
-title: 3.1
+title: 3.1 안드로이드 설치
 ---
+# 3.1 안드로이드(Android) 설치
 
-# 3.1 안드로이드용 설치 안내
-
-- 포커스버디(‘구포커스팡’)가 설치되어 있는 경우 포커스버디를 삭제합니다.
-- 안드로이드용APK 파일을 다운로드합니다.(최소저장공간 200MB) https://focuspang.com/_dn_.html#Android
-- 사용 정보 접근을 허용합니다.
-- 접근성을 허용합니다.
-- 다른 앱 위에 표시되는 앱을 허용합니다.
-- 기본 브라우저앱을 크롬브라우저로 설정합니다.
-- 선생님에게 받은 초대코드,학번,이름을 입력합니다.
-- 수업이 시작되면 화면 공유를 위해 화면 녹화를 시작합니다.
+* 학생용 안드로이드 설치 가이드 동영상을 통해 설치 과정을 확인할 수 있습니다.
+  https://www.youtube.com/watch?v=XBcpvCpa3nk
+* 학생용 안드로이드용 APK 파일(https://focuspang.com/_dn_.html#Android)을 다운받아 설치합니다. 
+* 설치 시 ‘출처를 알 수 없는 앱’으로 나와도 무시하고 설치합니다. 
+  동영상 가이드 https://www.youtube.com/watch?v=YyateW8uqIg
+* 사용정보 접근 설정에서 허용합니다.
+* 접근성 설정에서 허용을 선택합니다.
+  - 삼성 One UI 6.0이상: 동영상 가이드 (https://www.youtube.com/watch?v=mmQBRfcNyAQ)
+  - 삼성 One UI 6.0미만: 동영상 가이드 (https://www.youtube.com/watch?v=XBcpvCpa3nk&t=163s)
+* 오버레이(다른 앱 위에 표시되는 앱) 설정에서 허용을 선택합니다. 
+* 기본 브라우저를 크롬으로 변경합니다.
+https://support.google.com/chrome/answer/95417?hl=ko&co=GENIE.Platform%3DAndroid&oco=1
