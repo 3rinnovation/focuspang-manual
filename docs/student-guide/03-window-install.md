@@ -1,12 +1,10 @@
 ---
-title: 3.3
+title: 3.3 윈도우(MS Window) 설치
 ---
+# 3.3 윈도우(MS Window) 설치
 
-# 3.3 윈도우용 설치 안내
-
-1. 윈도우용 exe파일을 다운로드합니다. https://focuspang.com/_dn_.html#MS
-2. 크롬브라우저가 없다면 크롬브라우저를 설치합니다. https://www.google.com/intl/ko_kr/chrome/
-3. 기본브라우저를 크롬브라우저로 설정합니다.
-4. 크롬확장프로그램을 설치합니다.
-5. 선생님에게 받은 초대코드,학번,이름을입력합니다.
-6. 수업이 시작되면 화면을 선택하고 공유합니다.
+* 윈도우용 exe 파일을 다운로드 한 후 설치합니다.
+* 기본 브라우저를 크롬 브라우저로 설정합니다.\
+  크롬 브라우저 설치 (https://www.google.com/intl/ko_kr/chrome)
+* MS 윈도우용 크롬 확장 프로그램을 설치합니다.\
+  윈도우 exe 파일 다운로드와 크롬 확장프로그램 설치 (https://focuspang.com/\_dn\_.html#Google)
