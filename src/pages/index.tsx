@@ -11,7 +11,8 @@ import { Redirect } from "@docusaurus/router";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    <Redirect to={`${siteConfig.baseUrl}docs/admin-guide/feature`} />
+    // <div></div>
+    <Redirect to={`${siteConfig.baseUrl}docs/category/관리자용-포커스팡`} />
     // <header className={clsx("hero hero--primary", styles.heroBanner)}>
     //   <div className="container">
     //     <Heading as="h1" className="hero__title">
@@ -39,9 +40,9 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
-      <main>
+      {/* <main>
         <HomepageFeatures />
-      </main>
+      </main> */}
     </Layout>
   );
 }
