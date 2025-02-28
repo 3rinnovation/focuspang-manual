@@ -73,6 +73,7 @@ const config: Config = {
       logo: {
         alt: "focuspang_ai logo",
         src: "img/focuspang_ai.svg",
+        srcDark: "img/focuspang_ai_dark.svg",
       },
       items: [
         {
