@@ -5,7 +5,7 @@ title: 2.1 로그인
 
 선생님 계정은 회원가입을 통해 신청할 수 있습니다.
  
-🔗선생님 계정 신청 https://teacher.focuspang.com/ko/login
+ 🔗선생님 계정 신청 https://teacher.focuspang.com/ko/login
 
 ![](/img/teacher_2-1_01.jpg)
 
