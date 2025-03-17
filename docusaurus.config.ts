@@ -56,7 +56,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     defaultLocale: "en",
     locales: ["en"],
   },
-
+  plugins: [
+    [
+      "@docusaurus/plugin-google-gtag",
+      {
+        trackingID: "G-M69ZXJ9DMZ", // GA4 측정 ID로 변경
+        anonymizeIP: false, // 필요에 따라 IP 익명화 설정
+      },
+    ],
+  ],
   presets: [
     [
       "classic",
@@ -154,6 +162,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       ],
       copyright: `© 3R Innovation Inc. All rights reserved.`,
     },
+
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
