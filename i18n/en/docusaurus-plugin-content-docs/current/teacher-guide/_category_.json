@@ -1,14 +1,16 @@
 {
   "position": 2,
-  "label": "FocusPang for Teachers",
+  "label": "focuspang for Teachers",
   "collapsible": true,
   "collapsed": true,
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "FocusPang for Teachers Guide Contents"
+    "title": "focuspang Teacher Guide Contents",
+    "description": "Learn how to use focuspang as a teacher to manage your classes effectively.",
+    "keywords": ["teacher", "classroom", "management", "focuspang"]
   },
   "customProps": {
-    "description": "This description can be used in the swizzled DocCard"
+    "description": "Guide for teachers using focuspang"
   }
 }

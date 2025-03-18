@@ -1,14 +1,16 @@
 {
   "position": 3,
-  "label": "FocusPang for Students",
+  "label": "focuspang for Students",
   "collapsible": true,
   "collapsed": true,
   "className": "red",
   "link": {
     "type": "generated-index",
-    "title": "FocusPang for Students Guide"
+    "title": "focuspang Student Guide Contents",
+    "description": "Learn how to use focuspang as a student for effective learning.",
+    "keywords": ["student", "learning", "classroom", "focuspang"]
   },
   "customProps": {
-    "description": "This description can be used in the swizzled DocCard"
+    "description": "Guide for students using focuspang"
   }
 }

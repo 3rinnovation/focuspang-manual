@@ -4,27 +4,27 @@
     "description": "The label for version current"
   },
   "sidebar.guideSidebar.category.관리자용 포커스팡": {
-    "message": "관리자용 포커스팡 여기 ",
+    "message": "focuspang for Administrators",
     "description": "The label for category 관리자용 포커스팡 in sidebar guideSidebar"
   },
   "sidebar.guideSidebar.category.관리자용 포커스팡.link.generated-index.title": {
-    "message": "관리자용 포커스팡 가이드 목차 여기 한글",
+    "message": "focuspang Administrator Guide Contents",
     "description": "The generated-index page title for category 관리자용 포커스팡 in sidebar guideSidebar"
   },
   "sidebar.guideSidebar.category.선생님용 포커스팡": {
-    "message": "선생님용 포커스팡",
+    "message": "focuspang for Teachers",
     "description": "The label for category 선생님용 포커스팡 in sidebar guideSidebar"
   },
   "sidebar.guideSidebar.category.선생님용 포커스팡.link.generated-index.title": {
-    "message": "선생님용 포커스팡 가이드 목차",
+    "message": "focuspang Teacher Guide Contents",
     "description": "The generated-index page title for category 선생님용 포커스팡 in sidebar guideSidebar"
   },
   "sidebar.guideSidebar.category.학생용 포커스팡": {
-    "message": "학생용 포커스팡",
+    "message": "focuspang for Students",
     "description": "The label for category 학생용 포커스팡 in sidebar guideSidebar"
   },
   "sidebar.guideSidebar.category.학생용 포커스팡.link.generated-index.title": {
-    "message": "학생용 포커스팡 안내",
+    "message": "focuspang Student Guide Contents",
     "description": "The generated-index page title for category 학생용 포커스팡 in sidebar guideSidebar"
   }
 }

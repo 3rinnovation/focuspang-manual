@@ -1,31 +1,28 @@
-import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
-
-// 기본 사이드바 정의
-const sidebars: SidebarsConfig = {
-  guideSidebar: [
+{
+  "guideSidebar": [
     {
-      type: "category",
-      label: "관리자용 포커스팡",
-      link: {
-        type: "generated-index",
-        title: "관리자용 포커스팡 가이드 목차",
+      "type": "category",
+      "label": "focuspang for Administrators",
+      "link": {
+        "type": "generated-index",
+        "title": "focuspang Administrator Guide Contents"
       },
-      items: [
+      "items": [
         "admin-guide/feature",
         "admin-guide/login",
         "admin-guide/usage",
         "admin-guide/teacher-account-management",
-        "admin-guide/admin-account-management",
-      ],
+        "admin-guide/admin-account-management"
+      ]
     },
     {
-      type: "category",
-      label: "선생님용 포커스팡",
-      link: {
-        type: "generated-index",
-        title: "선생님용 포커스팡 가이드 목차",
+      "type": "category",
+      "label": "focuspang for Teachers",
+      "link": {
+        "type": "generated-index",
+        "title": "focuspang Teacher Guide Contents"
       },
-      items: [
+      "items": [
         "teacher-guide/login",
         "teacher-guide/add-class",
         "teacher-guide/student-list",
@@ -36,17 +33,17 @@ const sidebars: SidebarsConfig = {
         "teacher-guide/group-activity",
         "teacher-guide/assignment",
         "teacher-guide/quizpang",
-        "teacher-guide/web-app-control",
-      ],
+        "teacher-guide/web-app-control"
+      ]
     },
     {
-      type: "category",
-      label: "학생용 포커스팡",
-      link: {
-        type: "generated-index",
-        title: "학생용 포커스팡 가이드 목차",
+      "type": "category",
+      "label": "focuspang for Students",
+      "link": {
+        "type": "generated-index",
+        "title": "focuspang Student Guide Contents"
       },
-      items: [
+      "items": [
         "student-guide/android-install-guide",
         "student-guide/android-setup",
         "student-guide/window-install",
@@ -58,10 +55,8 @@ const sidebars: SidebarsConfig = {
         "student-guide/web-app-control",
         "student-guide/announcement",
         "student-guide/assignment",
-        "student-guide/group-activity",
-      ],
-    },
-  ],
-};
-
-export default sidebars;
+        "student-guide/group-activity"
+      ]
+    }
+  ]
+}

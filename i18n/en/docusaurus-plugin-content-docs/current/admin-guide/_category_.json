@@ -1,8 +1,8 @@
 {
+  "position": 1,
   "label": "focuspang for Administrators",
-  "position": 3,
   "collapsible": true,
-  "collapsed": true,
+  "collapsed": false,
   "className": "blue",
   "link": {
     "type": "generated-index",
