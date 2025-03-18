@@ -1,8 +1,8 @@
 {
+  "position": 1,
   "label": "관리자용 포커스팡",
-  "position": 3,
   "collapsible": true,
-  "collapsed": true,
+  "collapsed": false,
   "className": "blue",
   "link": {
     "type": "generated-index",

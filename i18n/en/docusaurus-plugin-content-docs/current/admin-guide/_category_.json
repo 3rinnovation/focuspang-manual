@@ -1,7 +1,14 @@
 {
   "label": "focuspang for Administrators",
+  "position": 3,
+  "collapsible": true,
+  "collapsed": true,
+  "className": "blue",
   "link": {
-    "title": "focuspang Administrator Guide Contents"
+    "type": "generated-index",
+    "title": "focuspang Administrator Guide Contents",
+    "description": "Learn how to administer and manage the focuspang platform.",
+    "keywords": ["admin", "administrator", "management", "focuspang"]
   },
   "customProps": {
     "description": "Guide for administrators using focuspang"
