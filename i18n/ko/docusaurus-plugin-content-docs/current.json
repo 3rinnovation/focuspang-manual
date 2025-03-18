@@ -4,11 +4,11 @@
     "description": "The label for version current"
   },
   "sidebar.guideSidebar.category.관리자용 포커스팡": {
-    "message": "관리자용 포커스팡 여기 ",
+    "message": "관리자용 포커스팡",
     "description": "The label for category 관리자용 포커스팡 in sidebar guideSidebar"
   },
   "sidebar.guideSidebar.category.관리자용 포커스팡.link.generated-index.title": {
-    "message": "관리자용 포커스팡 가이드 목차 여기 한글",
+    "message": "관리자용 포커스팡 가이드 목차",
     "description": "The generated-index page title for category 관리자용 포커스팡 in sidebar guideSidebar"
   },
   "sidebar.guideSidebar.category.선생님용 포커스팡": {
