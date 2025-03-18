@@ -1,0 +1,29 @@
+---
+title: 2.7 Dashboard
+---
+
+# 2.7 Dashboard
+
+- Manage students through charts.
+- When you select a chart, it is added to and displayed on the dashboard.
+- Types of charts include Attendance, Academic Achievement, Assignments, Mental Health, and Attention Focus.
+
+  - Attendance: Shows students' attendance status.
+  - Academic Achievement: Shows today's QuizPang rankings, average QuizPang scores, and average QuizPang wrong answer rates.
+  - Assignments: Shows students' assignment submission status.
+  - Mental Health: Shows students with low and high impulsivity and the class average impulsivity tendency.
+  - Attention Focus: Shows class average attention concentration rate, and students with high and low concentration.
+
+    ![](/img/teacher_2-7_01.jpg)
+
+### 2.7.1 Adding and Deleting Charts
+
+1. Use the **\[+Add Chart]** button to select desired chart items to add to the dashboard.
+2. You can delete a chart by clicking the **\[x]** button in the upper right corner of the added chart.
+3. If you need additional charts beyond the configured ones, click **\[Order New Chart]** to contact headquarters.
+
+   ![](/img/teacher_2-7-1_01.jpg)
+
+   ![](/img/teacher_2-7-1_02.jpg)
+
+   ![](/img/teacher_2-7-1_03.jpg)

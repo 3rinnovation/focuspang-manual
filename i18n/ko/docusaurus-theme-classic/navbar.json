@@ -1,0 +1,10 @@
+{
+  "logo.alt": {
+    "message": "focuspang_ai logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.포커스팡 가이드": {
+    "message": "포커스팡 가이드",
+    "description": "Navbar item with label 포커스팡 가이드"
+  }
+}

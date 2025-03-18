@@ -1,0 +1,42 @@
+{
+  "link.title.Guide": {
+    "message": "Guide",
+    "description": "The title of the footer links column with title=Guide in the footer"
+  },
+  "link.title.포커스팡": {
+    "message": "focuspang",
+    "description": "The title of the footer links column with title=포커스팡 in the footer"
+  },
+  "link.title.More": {
+    "message": "More",
+    "description": "The title of the footer links column with title=More in the footer"
+  },
+  "link.item.label.포커스팡 가이드": {
+    "message": "focuspang Guide",
+    "description": "The label of footer link with label=포커스팡 가이드 linking to /docs/admin-guide/feature"
+  },
+  "link.item.label.관리자용 포커스팡": {
+    "message": "focuspang for Administrators",
+    "description": "The label of footer link with label=관리자용 포커스팡 linking to https://admin.focuspang.com/"
+  },
+  "link.item.label.선생님용 포커스팡": {
+    "message": "focuspang for Teachers",
+    "description": "The label of footer link with label=선생님용 포커스팡 linking to https://teacher.focuspang.com/"
+  },
+  "link.item.label.학생용 포커스팡": {
+    "message": "focuspang for Students",
+    "description": "The label of footer link with label=학생용 포커스팡 linking to https://student.focuspang.com/"
+  },
+  "link.item.label.포커스팡 공식 홈페이지": {
+    "message": "focuspang Official Website",
+    "description": "The label of footer link with label=포커스팡 공식 홈페이지 linking to https://focuspang.com/"
+  },
+  "link.item.label.포커스팡 즉문즉답": {
+    "message": "focuspang FAQ",
+    "description": "The label of footer link with label=포커스팡 즉문즉답 linking to https://focuspang.com/ask.html"
+  },
+  "copyright": {
+    "message": "© 3R Innovation Inc. All rights reserved.",
+    "description": "The footer copyright"
+  }
+}

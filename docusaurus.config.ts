@@ -54,7 +54,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "ko"],
+    localeConfigs: {
+      en: {
+        htmlLang: "en-US",
+      },
+      ko: {
+        htmlLang: "ko-KR",
+      },
+    },
   },
   plugins: [
     [
@@ -114,6 +122,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           sidebarId: "guideSidebar",
           position: "left",
           label: "포커스팡 가이드",
+        },
+        {
+          type: "localeDropdown",
+          position: "right",
         },
       ],
     },
