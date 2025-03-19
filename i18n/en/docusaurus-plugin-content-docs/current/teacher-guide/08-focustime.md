@@ -9,7 +9,7 @@ title: 2.7 Dashboard
 - Types of charts include Attendance, Academic Achievement, Assignments, Mental Health, and Attention Focus.
 
   - Attendance: Shows students' attendance status.
-  - Academic Achievement: Shows today's QuizPang rankings, average QuizPang scores, and average QuizPang wrong answer rates.
+  - Academic Achievement: Shows today's Quizpang rankings, average Quizpang scores, and average Quizpang wrong answer rates.
   - Assignments: Shows students' assignment submission status.
   - Mental Health: Shows students with low and high impulsivity and the class average impulsivity tendency.
   - Attention Focus: Shows class average attention concentration rate, and students with high and low concentration.

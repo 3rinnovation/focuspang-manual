@@ -1,11 +1,11 @@
 ---
-title: 2.4 Focus Time
+title: 2.4 Focustime
 ---
 
-# 2.4 Focus Time
+# 2.4 Focustime
 
 - Select the **\[Please check before starting]** checkbox.
-- Click the **\[Start Focus Time]** button when it becomes active.
+- Click the **\[Start Focustime]** button when it becomes active.
 
   ![](/img/tcher_2-4_01.jpg)
 
@@ -14,19 +14,19 @@ title: 2.4 Focus Time
 
 **🚨Caution**
 
-If you start Focus Time outside of actual class time, it may disrupt students who are in other classes, so please be careful.
+If you start Focustime outside of actual class time, it may disrupt students who are in other classes, so please be careful.
 
 ### 2.4.1 Class Instruction
 
 1. Focus Pen: Click the brush icon to use the pen to write. You can also change colors, use the eraser, and clear all writing.
-2. Teacher Screen Sharing: Click the monitor icon below Focus Time to share your screen with students. Sharing options include:
+2. Teacher Screen Sharing: Click the monitor icon below Focustime to share your screen with students. Sharing options include:
 
 - Chrome Tab: Share a Chrome browser tab that the teacher has open.
 - Window: Share a specific window running on the teacher's computer.
 - Full Screen: Share the teacher's entire screen.
 
 3. Student Screen Sharing: Click on a student's screen during class to display that student's screen on the teacher's screen.
-4. Class Time Adjustment: Click \[–5 / +5] next to the class time under Focus Time to adjust the class duration.
+4. Class Time Adjustment: Click \[–5 / +5] next to the class time under Focustime to adjust the class duration.
 5. Screen Lock: Click the key emoticon to lock students' screens. Student screens will turn black with the message "Please focus on the teacher for a moment." Click the key icon again to unlock.
 6. Full Screen View: Click the full screen view button to see the screen in a larger format.
 

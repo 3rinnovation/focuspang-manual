@@ -1,10 +1,10 @@
 ---
-title: 2.5 QuizPang
+title: 2.5 Quizpang
 ---
 
-# 2.5 QuizPang
+# 2.5 Quizpang
 
-- QuizPang is a quiz battle where teachers create quizzes and students solve problems simultaneously.
+- Quizpang is a quiz battle where teachers create quizzes and students solve problems simultaneously.
 - Click the **\[+Create Quiz]** button and select **\[Quiz]** in the quiz creation window.
 
   ![](/img/tcher_2-5_01.jpg)
@@ -24,4 +24,4 @@ title: 2.5 QuizPang
 
 **🚨Caution**
 
-QuizPang cannot be used simultaneously during class, so please end the class before starting QuizPang.
+Quizpang cannot be used simultaneously during class, so please end the class before starting Quizpang.

@@ -27,4 +27,4 @@ After registration, your school administrator must approve your account before y
 For faster approval, please directly request approval from your administrator.
 
 🔑 **Login Method**
-Access the FocusPang for Teachers site using Chrome browser on Windows, MacBook, or Chromebook, and log in with your issued account.
+Access the focuspang for Teachers site using Chrome browser on Windows, MacBook, or Chromebook, and log in with your issued account.

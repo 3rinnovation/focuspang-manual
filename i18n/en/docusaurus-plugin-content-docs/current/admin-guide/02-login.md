@@ -4,7 +4,7 @@ title: 1.2 Login
 
 # 1.2 Login
 
-- Access the FocusPang Admin at http://admin.focuspang.com.
+- Access the focuspang Admin at http://admin.focuspang.com.
 - Log in with the issued admin account.
 
 🚨**Caution**

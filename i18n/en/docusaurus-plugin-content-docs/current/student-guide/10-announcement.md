@@ -1,10 +1,10 @@
 ---
-title: 3.10 QuizPang
+title: 3.10 Quizpang
 ---
 
-# 3.10 QuizPang
+# 3.10 Quizpang
 
-- QuizPang is a quiz battle where students solve problems simultaneously when the teacher creates a quiz.
+- Quizpang is a quiz battle where students solve problems simultaneously when the teacher creates a quiz.
 - When the teacher starts the quiz, it begins after a countdown.
 - After solving the problem and when the time limit for answering ends, it automatically moves to the quiz results page.
 - You can check your quiz ranking through **\[View Ranking]** on the quiz results page.
