@@ -12,6 +12,6 @@ title: 3.6 Adding Classes
   - **Chromebook**: When the teacher starts the class, select the entire screen in the screen sharing information selection popup that appears to students, then click \[Share].
   - **Windows**: When the teacher starts the class, the student screen sharing begins automatically.
 
-    ![](/img/student_3-6_01.jpg)
+    ![](/img/en_student/en_student_3-6_01.jpg)
 
-    ![](/img/student_3-6_02.jpg)
+    ![](/img/en_student/en_student_3-6_02.jpg)

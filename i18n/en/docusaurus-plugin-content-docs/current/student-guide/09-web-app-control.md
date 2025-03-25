@@ -12,8 +12,8 @@ title: 3.9 Class Screen
   Apps and websites not selected are not blocked.
 - **\[Shared Links/Files List]** displays a list of links shared by the teacher. You can click these links to navigate to the corresponding address.
 
-  ![](/img/student_3-9_01.jpg)
+  ![](/img/en_student/en_student_3-9_01.jpg)
 
-  ![](/img/student_3-9_02.jpg)
+  ![](/img/en_student/en_student_3-9_02.jpg)
 
-  ![](/img/student_3-9_03.jpg)
+  ![](/img/en_student/en_student_3-9_03.jpg)

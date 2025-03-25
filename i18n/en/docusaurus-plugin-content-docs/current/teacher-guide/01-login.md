@@ -8,7 +8,7 @@ Teacher accounts can be requested through registration.
 
 🔗Request a teacher account: https://teacher.focuspang.com/login
 
-![](/img/teacher_2-1_01.jpg)
+![](/img/en_teacher/en_teacher_2-1_01.jpg)
 
 ✅ **Registration Process**
 
@@ -20,7 +20,7 @@ Teacher accounts can be requested through registration.
 
 Since we obtain consent for collection and provision of personal information to third parties during registration, there is no need to submit a separate consent form for personal information.
 
-![](/img/teacher_2-1_02.jpg)
+<!-- ![](/img/en_teacher/en_teacher_2-1_02.jpg) -->
 
 🔑 **Account Approval Information**
 After registration, your school administrator must approve your account before you can use it.

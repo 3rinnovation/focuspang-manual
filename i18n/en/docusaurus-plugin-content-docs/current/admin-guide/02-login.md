@@ -17,4 +17,4 @@ title: 1.2 Login
 
 If the teacher who was issued the admin account is no longer working at the school due to transfer or resignation, a new admin account can be issued. In this case, please contact the headquarters.
 
-![](/img/mag_1-2.jpg)
+![](/img/en_admin/en_mag_1-2.jpg)

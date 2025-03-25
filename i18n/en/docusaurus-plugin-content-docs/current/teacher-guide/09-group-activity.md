@@ -8,8 +8,8 @@ title: 2.8 Student List
 - Click the pencil icon to modify student information (class, name).
 - Click the document icon to remove a student registered in the class.
 
-  ![](/img/teacher_2-8_01.jpg)
+  ![](/img/en_teacher/en_teacher_2-8_01.jpg)
 
-  ![](/img/teacher_2-8_02.jpg)
+  ![](/img/en_teacher/en_teacher_2-8_02.jpg)
 
-  ![](/img/teacher_2-8_03.jpg)
+  ![](/img/en_teacher/en_teacher_2-8_03.jpg)

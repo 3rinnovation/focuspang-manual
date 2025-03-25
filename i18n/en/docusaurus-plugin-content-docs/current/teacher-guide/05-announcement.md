@@ -7,10 +7,10 @@ title: 2.4 Focustime
 - Select the **\[Please check before starting]** checkbox.
 - Click the **\[Start Focustime]** button when it becomes active.
 
-  ![](/img/tcher_2-4_01.jpg)
+  ![](/img/en_teacher/en_tcher_2-4_01.jpg)
 
 - Click the **\[Confirm]** button in the guidance popup to start the class.
-  ![](/img/teacher_2-4_02.jpg)
+  ![](/img/en_teacher/en_teacher_2-4_02.jpg)
 
 **🚨Caution**
 
@@ -30,7 +30,7 @@ If you start Focustime outside of actual class time, it may disrupt students who
 5. Screen Lock: Click the key emoticon to lock students' screens. Student screens will turn black with the message "Please focus on the teacher for a moment." Click the key icon again to unlock.
 6. Full Screen View: Click the full screen view button to see the screen in a larger format.
 
-   ![](/img/tcher_2-4-1.jpg)
+   ![](/img/en_teacher/en_tcher_2-4-1.jpg)
 
 ### 2.4.2 Attention Focus During Class
 
@@ -45,14 +45,14 @@ If you start Focustime outside of actual class time, it may disrupt students who
 1. Click the **\[Share Resources with Students]** button, then in the Link tab, enter the link to share and the title, and click the Share Link button to share the link with students.
 2. Click the **\[Share Resources with Students]** button, then in the File tab, select the file to share to distribute it to students.
 
-   ![](/img/tcher_2-4-3.jpg)
+   ![](/img/en_teacher/en_tcher_2-4-3.jpg)
 
 ### 2.4.4 App/Web Control
 
 1. You can set which apps and websites to control for student use during class.
 
-   ![](/img/tcher_2-4-4_01.jpg)
+   ![](/img/en_teacher/en_tcher_2-4-4_01.jpg)
 
 2. After clicking **\[Apps and websites to control student use]**, click the **\[Add App/Web Control Settings]** button to add site links you want to restrict, check the site, and press the **\[Complete]** button to allow or block students' access to those sites.
 
-   ![](/img/teacher_2-4-4_02.jpg)
+   ![](/img/en_teacher/en_teacher_2-4-4_02.jpg)

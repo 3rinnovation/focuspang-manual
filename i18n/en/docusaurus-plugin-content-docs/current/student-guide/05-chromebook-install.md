@@ -11,8 +11,8 @@ title: 3.5 Login
   Please note that only numbers can be entered for the 5-digit student number. \
   For example, if you are in 1st grade, class 1, number 8, you can use 10108 or 01108 according to your school's rules.
 
-  ![](/img/student_3-5_01.jpg)
+  ![](/img/en_student/en_student_3-5_01.jpg)
 
-  ![](/img/student_3-5_02.jpg)
+  ![](/img/en_student/en_student_3-5_02.jpg)
 
-  ![](/img/student_3-5_03.jpg)
+  ![](/img/en_student/en_student_3-5_03.jpg)

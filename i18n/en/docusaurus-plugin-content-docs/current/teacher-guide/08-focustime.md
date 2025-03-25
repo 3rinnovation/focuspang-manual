@@ -14,7 +14,7 @@ title: 2.7 Dashboard
   - Mental Health: Shows students with low and high impulsivity and the class average impulsivity tendency.
   - Attention Focus: Shows class average attention concentration rate, and students with high and low concentration.
 
-    ![](/img/teacher_2-7_01.jpg)
+    <!-- ![](/img/en_teacher/en_teacher_2-7_01.jpg) -->
 
 ### 2.7.1 Adding and Deleting Charts
 
@@ -22,8 +22,8 @@ title: 2.7 Dashboard
 2. You can delete a chart by clicking the **\[x]** button in the upper right corner of the added chart.
 3. If you need additional charts beyond the configured ones, click **\[Order New Chart]** to contact headquarters.
 
-   ![](/img/teacher_2-7-1_01.jpg)
+   <!-- ![](/img/en_teacher/en_teacher_2-7-1_01.jpg) -->
 
-   ![](/img/teacher_2-7-1_02.jpg)
+   <!-- ![](/img/en_teacher/en_teacher_2-7-1_02.jpg) -->
 
-   ![](/img/teacher_2-7-1_03.jpg)
+   <!-- ![](/img/en_teacher/en_teacher_2-7-1_03.jpg) -->

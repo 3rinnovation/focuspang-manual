@@ -10,4 +10,4 @@ slug: feature
 - Administrators cannot create or manage classes.
 - Administrators can modify student information.
 
-![](/img/mag_1-1.jpg)
+![](/img/en_admin/en_mag_1-1.jpg)
