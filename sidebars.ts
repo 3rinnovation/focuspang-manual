@@ -22,12 +22,41 @@ const sidebars: SidebarsConfig = {
   // category/선생님용-포커스팡-1 오류 확인
   teacherSidebar: [
     {
+      type: "doc",
+      id: "teacher-guide/intro",
+      label: "선생님용 가이드",
+    },
+    {
       type: "category",
-      label: "선생님용 포커스팡",
+      label: "초등학교 선생님",
       link: {
         type: "generated-index",
-        title: "선생님용 포커스팡 가이드 목차",
+        title: "초등학교 선생님용 포커스팡 가이드 목차",
       },
+      // 접기
+      collapsed: true,
+      items: [
+        "teacher-guide/elementary/login",
+        "teacher-guide/add-class",
+        "teacher-guide/student-list",
+        "teacher-guide/announcement",
+        "teacher-guide/delete-announcement",
+        "teacher-guide/dashboard",
+        "teacher-guide/focustime",
+        "teacher-guide/group-activity",
+        "teacher-guide/assignment",
+        "teacher-guide/quizpang",
+        "teacher-guide/web-app-control",
+      ],
+    },
+    {
+      type: "category",
+      label: "중고등학교 선생님",
+      link: {
+        type: "generated-index",
+        title: `중고등학교 선생님용 포커스팡 가이드 목차`,
+      },
+      collapsed: true,
       items: [
         "teacher-guide/login",
         "teacher-guide/add-class",
@@ -45,12 +74,41 @@ const sidebars: SidebarsConfig = {
   ],
   studentSidebar: [
     {
+      type: "doc",
+      id: "student-guide/intro",
+      label: "학생용 가이드",
+    },
+    {
       type: "category",
-      label: "학생용 포커스팡",
+      label: "초등학교 학생",
       link: {
         type: "generated-index",
-        title: "학생용 포커스팡 가이드 목차",
+        title: "초등학교 학생용 포커스팡 가이드 목차",
       },
+      collapsed: true,
+      items: [
+        "student-guide/android-install-guide",
+        "student-guide/android-setup",
+        "student-guide/window-install",
+        "student-guide/window-setup",
+        "student-guide/chromebook-install",
+        "student-guide/login",
+        "student-guide/add-class",
+        "student-guide/display-in-class",
+        "student-guide/web-app-control",
+        "student-guide/announcement",
+        "student-guide/assignment",
+        "student-guide/group-activity",
+      ],
+    },
+    {
+      type: "category",
+      label: "중고등학교 학생",
+      link: {
+        type: "generated-index",
+        title: "중고등학교 학생용 포커스팡 가이드 목차",
+      },
+      collapsed: true,
       items: [
         "student-guide/android-install-guide",
         "student-guide/android-setup",
