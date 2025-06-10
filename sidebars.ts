@@ -2,7 +2,7 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
 // 기본 사이드바 정의
 const sidebars: SidebarsConfig = {
-  guideSidebar: [
+  adminSidebar: [
     {
       type: "category",
       label: "관리자용 포커스팡",
@@ -18,6 +18,9 @@ const sidebars: SidebarsConfig = {
         "admin-guide/admin-account-management",
       ],
     },
+  ],
+  // category/선생님용-포커스팡-1 오류 확인
+  teacherSidebar: [
     {
       type: "category",
       label: "선생님용 포커스팡",
@@ -39,6 +42,8 @@ const sidebars: SidebarsConfig = {
         "teacher-guide/web-app-control",
       ],
     },
+  ],
+  studentSidebar: [
     {
       type: "category",
       label: "학생용 포커스팡",

@@ -119,11 +119,24 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       items: [
         {
           type: "docSidebar",
-          sidebarId: "guideSidebar",
+          sidebarId: "adminSidebar",
           position: "left",
-          label: "포커스팡 가이드",
+          label: "관리자용",
         },
         {
+          type: "docSidebar",
+          sidebarId: "teacherSidebar",
+          position: "left",
+          label: "선생님용",
+        },
+        {
+          type: "docSidebar",
+          sidebarId: "studentSidebar",
+          position: "left",
+          label: "학생용",
+        },
+        {
+          // 다국어 드롭다운
           type: "localeDropdown",
           position: "right",
         },
