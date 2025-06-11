@@ -79,6 +79,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+          // 파일 넘버링 자동 패스
+          numberPrefixParser: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
