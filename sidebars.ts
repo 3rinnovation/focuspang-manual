@@ -19,6 +19,8 @@ const sidebars: SidebarsConfig = {
         title: "관리자용 포커스팡 가이드 목차",
         slug: "/elementary/admin-guide",
       },
+      // 접기
+      collapsed: true,
       items: [
         "elementary/admin-guide/feature",
         "elementary/admin-guide/login",
@@ -35,7 +37,6 @@ const sidebars: SidebarsConfig = {
         title: "초등학교 선생님용 포커스팡 가이드 목차",
         slug: "/elementary/teacher-guide",
       },
-      // 접기
       collapsed: true,
       items: [
         "elementary/teacher-guide/login",
@@ -45,7 +46,7 @@ const sidebars: SidebarsConfig = {
         "elementary/teacher-guide/focustime",
         "elementary/teacher-guide/quizpang",
         "elementary/teacher-guide/assignment",
-        "elementary/teacher-guide/list-student",
+        "elementary/teacher-guide/manage-student",
         "elementary/teacher-guide/group-activity",
         //"elementary/teacher-guide/change-role",
         //"elementary/teacher-guide/settings",
