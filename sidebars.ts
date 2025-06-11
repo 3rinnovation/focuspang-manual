@@ -2,7 +2,7 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
 // 기본 사이드바 정의
 const sidebars: SidebarsConfig = {
-  adminSidebar: [
+  elementarySidebar: [
     {
       type: "category",
       label: "관리자용 포커스팡",
@@ -18,17 +18,9 @@ const sidebars: SidebarsConfig = {
         "admin-guide/admin-account-management",
       ],
     },
-  ],
-  // category/선생님용-포커스팡-1 오류 확인
-  teacherSidebar: [
-    {
-      type: "doc",
-      id: "teacher-guide/intro",
-      label: "선생님용 가이드",
-    },
     {
       type: "category",
-      label: "초등학교 선생님",
+      label: "선생님용 포커스팡",
       link: {
         type: "generated-index",
         title: "초등학교 선생님용 포커스팡 가이드 목차",
@@ -37,50 +29,13 @@ const sidebars: SidebarsConfig = {
       collapsed: true,
       items: [
         "teacher-guide/elementary/login",
-        "teacher-guide/add-class",
-        "teacher-guide/student-list",
-        "teacher-guide/announcement",
-        "teacher-guide/delete-announcement",
-        "teacher-guide/dashboard",
-        "teacher-guide/focustime",
-        "teacher-guide/group-activity",
-        "teacher-guide/assignment",
-        "teacher-guide/quizpang",
-        "teacher-guide/web-app-control",
+        "teacher-guide/elementary/add-class",
+        "teacher-guide/elementary/add-course",
       ],
     },
     {
       type: "category",
-      label: "중고등학교 선생님",
-      link: {
-        type: "generated-index",
-        title: `중고등학교 선생님용 포커스팡 가이드 목차`,
-      },
-      collapsed: true,
-      items: [
-        "teacher-guide/login",
-        "teacher-guide/add-class",
-        "teacher-guide/student-list",
-        "teacher-guide/announcement",
-        "teacher-guide/delete-announcement",
-        "teacher-guide/dashboard",
-        "teacher-guide/focustime",
-        "teacher-guide/group-activity",
-        "teacher-guide/assignment",
-        "teacher-guide/quizpang",
-        "teacher-guide/web-app-control",
-      ],
-    },
-  ],
-  studentSidebar: [
-    {
-      type: "doc",
-      id: "student-guide/intro",
-      label: "학생용 가이드",
-    },
-    {
-      type: "category",
-      label: "초등학교 학생",
+      label: "학생용 포커스팡",
       link: {
         type: "generated-index",
         title: "초등학교 학생용 포커스팡 가이드 목차",
@@ -101,9 +56,48 @@ const sidebars: SidebarsConfig = {
         "student-guide/group-activity",
       ],
     },
+  ],
+  middlehighSidebar: [
     {
       type: "category",
-      label: "중고등학교 학생",
+      label: "관리자용 포커스팡",
+      link: {
+        type: "generated-index",
+        title: "관리자용 포커스팡 가이드 목차",
+      },
+      items: [
+        "admin-guide/feature",
+        "admin-guide/login",
+        "admin-guide/usage",
+        "admin-guide/teacher-account-management",
+        "admin-guide/admin-account-management",
+      ],
+    },
+    {
+      type: "category",
+      label: "선생님용 포커스팡",
+      link: {
+        type: "generated-index",
+        title: `중고등학교 선생님용 포커스팡 가이드 목차`,
+      },
+      collapsed: true,
+      items: [
+        "teacher-guide/login",
+        "teacher-guide/add-class",
+        "teacher-guide/student-list",
+        "teacher-guide/announcement",
+        "teacher-guide/delete-announcement",
+        "teacher-guide/dashboard",
+        "teacher-guide/focustime",
+        "teacher-guide/group-activity",
+        "teacher-guide/assignment",
+        "teacher-guide/quizpang",
+        "teacher-guide/web-app-control",
+      ],
+    },
+    {
+      type: "category",
+      label: "학생용 포커스팡",
       link: {
         type: "generated-index",
         title: "중고등학교 학생용 포커스팡 가이드 목차",

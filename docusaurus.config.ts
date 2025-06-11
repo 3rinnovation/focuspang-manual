@@ -119,21 +119,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       items: [
         {
           type: "docSidebar",
-          sidebarId: "adminSidebar",
+          sidebarId: "elementarySidebar",
           position: "left",
-          label: "관리자용",
+          label: "초등학교용",
         },
         {
           type: "docSidebar",
-          sidebarId: "teacherSidebar",
+          sidebarId: "middlehighSidebar",
           position: "left",
-          label: "선생님용",
-        },
-        {
-          type: "docSidebar",
-          sidebarId: "studentSidebar",
-          position: "left",
-          label: "학생용",
+          label: "중고등학교용",
         },
         {
           // 다국어 드롭다운
