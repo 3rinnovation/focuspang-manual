@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /middlehigh
 ---
 
-# 중고등학교 가이드
+# 중고등학교 포커스팡 가이드
 
 포커스팡은 사용자별로 최적화된 기능을 제공하고 있습니다.
 
@@ -12,8 +12,8 @@ slug: /middlehigh
 
 ## 사용자 선택
 
-### 👨‍💼 [관리자용 가이드](/docs/middlehigh/admin-guide)
+### 👨‍💼 [관리자](/docs/middlehigh/admin-guide)
 
-### 👨‍🏫 [선생님용 가이드](/docs/middlehigh/teacher-guide)
+### 👨‍🏫 [선생님](/docs/middlehigh/teacher-guide)
 
-### 🧑‍🎓 [학생용 가이드](/docs/middlehigh/student-guide)
+### 🧑‍🎓 [학생](/docs/middlehigh/student-guide)

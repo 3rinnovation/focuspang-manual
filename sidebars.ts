@@ -8,11 +8,12 @@ const sidebars: SidebarsConfig = {
     {
       type: "doc",
       id: "elementary/intro",
-      label: "초등학교 가이드",
+      label: "초등학교 포커스팡 가이드",
+      className: "sidebar-intro",
     },
     {
       type: "category",
-      label: "관리자용 포커스팡",
+      label: "관리자",
       link: {
         type: "generated-index",
         title: "관리자용 포커스팡 가이드 목차",
@@ -28,7 +29,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "선생님용 포커스팡",
+      label: "선생님",
       link: {
         type: "generated-index",
         title: "초등학교 선생님용 포커스팡 가이드 목차",
@@ -44,7 +45,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "학생용 포커스팡",
+      label: "학생",
       link: {
         type: "generated-index",
         title: "초등학교 학생용 포커스팡 가이드 목차",
@@ -71,11 +72,12 @@ const sidebars: SidebarsConfig = {
     {
       type: "doc",
       id: "middlehigh/intro",
-      label: "중고등학교 가이드",
+      label: "중고등학교 포커스팡 가이드",
+      className: "sidebar-intro",
     },
     {
       type: "category",
-      label: "관리자용 포커스팡",
+      label: "관리자",
       link: {
         type: "generated-index",
         title: "관리자용 포커스팡 가이드 목차",
@@ -91,7 +93,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "선생님용 포커스팡",
+      label: "선생님",
       link: {
         type: "generated-index",
         title: `중고등학교 선생님용 포커스팡 가이드 목차`,
@@ -114,7 +116,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: "category",
-      label: "학생용 포커스팡",
+      label: "학생",
       link: {
         type: "generated-index",
         title: "중고등학교 학생용 포커스팡 가이드 목차",
