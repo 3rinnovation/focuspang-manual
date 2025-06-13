@@ -12,8 +12,8 @@ slug: /elementary
 
 ## 사용자 선택
 
-### 👨‍💼 [관리자](/docs/elementary/admin-guide)
+### 👨‍💼 [관리자](elementary/admin-guide)
 
-### 👨‍🏫 [선생님](/docs/elementary/teacher-guide)
+### 👨‍🏫 [선생님](elementary/teacher-guide)
 
-### 🧑‍🎓 [학생](/docs/elementary/student-guide)
+### 🧑‍🎓 [학생](elementary/student-guide)

@@ -17,7 +17,7 @@ const sidebars: SidebarsConfig = {
       link: {
         type: "generated-index",
         title: "관리자용 포커스팡 가이드 목차",
-        slug: "/elementary/admin-guide",
+        slug: "elementary/admin-guide",
       },
       // 접기
       collapsed: true,
@@ -35,7 +35,7 @@ const sidebars: SidebarsConfig = {
       link: {
         type: "generated-index",
         title: "초등학교 선생님용 포커스팡 가이드 목차",
-        slug: "/elementary/teacher-guide",
+        slug: "elementary/teacher-guide",
       },
       collapsed: true,
       items: [
@@ -69,7 +69,7 @@ const sidebars: SidebarsConfig = {
       link: {
         type: "generated-index",
         title: "초등학교 학생용 포커스팡 가이드 목차",
-        slug: "/elementary/student-guide",
+        slug: "elementary/student-guide",
       },
       collapsed: true,
       items: [
@@ -101,7 +101,7 @@ const sidebars: SidebarsConfig = {
       link: {
         type: "generated-index",
         title: "관리자용 포커스팡 가이드 목차",
-        slug: "/middlehigh/admin-guide",
+        slug: "middlehigh/admin-guide",
       },
       items: [
         "middlehigh/admin-guide/feature",
@@ -117,7 +117,7 @@ const sidebars: SidebarsConfig = {
       link: {
         type: "generated-index",
         title: `중고등학교 선생님용 포커스팡 가이드 목차`,
-        slug: "/middlehigh/teacher-guide",
+        slug: "middlehigh/teacher-guide",
       },
       collapsed: true,
       items: [
@@ -140,7 +140,7 @@ const sidebars: SidebarsConfig = {
       link: {
         type: "generated-index",
         title: "중고등학교 학생용 포커스팡 가이드 목차",
-        slug: "/middlehigh/student-guide",
+        slug: "middlehigh/student-guide",
       },
       collapsed: true,
       items: [
