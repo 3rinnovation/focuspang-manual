@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkfocuspang_manual=self.webpackChunkfocuspang_manual||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/focuspang-manual/blog","blogTitle":"Blog","authorsListPath":"/focuspang-manual/blog/authors"}')}}]);

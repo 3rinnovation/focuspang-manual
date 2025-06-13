@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>focuspang ai guide Blog</title>
+        <link>https://3rinnovation.github.io/en/blog</link>
+        <description>focuspang ai guide Blog</description>
+        <lastBuildDate>Tue, 25 Feb 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[테스트]]></title>
+            <link>https://3rinnovation.github.io/en/blog/testslug</link>
+            <guid>https://3rinnovation.github.io/en/blog/testslug</guid>
+            <pubDate>Tue, 25 Feb 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[1. 테스트 블로그 입니다.asdf]]></description>
+            <content:encoded><![CDATA[<blockquote>
+<ol>
+<li>테스트 블로그 입니다.asdf</li>
+</ol>
+</blockquote>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[First Blog Post]]></title>
+            <link>https://3rinnovation.github.io/en/blog/first-blog-post</link>
+            <guid>https://3rinnovation.github.io/en/blog/first-blog-post</guid>
+            <pubDate>Mon, 15 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></description>
+            <content:encoded><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>]]></content:encoded>
+            <category>foo</category>
+            <category>bar</category>
+        </item>
+    </channel>
+</rss>

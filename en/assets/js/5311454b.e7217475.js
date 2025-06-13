@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfocuspang_manual=self.webpackChunkfocuspang_manual||[]).push([[5430],{2185:a=>{a.exports=JSON.parse('{"tags":[{"label":"foo","permalink":"/en/blog/tags/foo","count":1},{"label":"bar","permalink":"/en/blog/tags/bar","count":1}]}')}}]);

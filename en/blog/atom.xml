@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="atom.xsl"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://3rinnovation.github.io/en/blog</id>
+    <title>focuspang ai guide Blog</title>
+    <updated>2025-02-25T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://3rinnovation.github.io/en/blog"/>
+    <subtitle>focuspang ai guide Blog</subtitle>
+    <icon>https://3rinnovation.github.io/en/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[테스트]]></title>
+        <id>https://3rinnovation.github.io/en/blog/testslug</id>
+        <link href="https://3rinnovation.github.io/en/blog/testslug"/>
+        <updated>2025-02-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[1. 테스트 블로그 입니다.asdf]]></summary>
+        <content type="html"><![CDATA[<blockquote>
+<ol>
+<li>테스트 블로그 입니다.asdf</li>
+</ol>
+</blockquote>]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[First Blog Post]]></title>
+        <id>https://3rinnovation.github.io/en/blog/first-blog-post</id>
+        <link href="https://3rinnovation.github.io/en/blog/first-blog-post"/>
+        <updated>2021-11-15T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet, consectetur adipiscing elit]]></summary>
+        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>]]></content>
+        <author>
+            <name>Garrison McMullen</name>
+            <uri>https://github.com/garrison0</uri>
+        </author>
+        <category label="foo" term="foo"/>
+        <category label="bar" term="bar"/>
+    </entry>
+</feed>
