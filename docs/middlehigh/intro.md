@@ -12,8 +12,8 @@ slug: /middlehigh
 
 ## 사용자 선택
 
-### 👨‍💼 [관리자](/docs/middlehigh/admin-guide)
+### 👨‍💼 [관리자](middlehigh/admin-guide)
 
-### 👨‍🏫 [선생님](/docs/middlehigh/teacher-guide)
+### 👨‍🏫 [선생님](middlehigh/teacher-guide)
 
-### 🧑‍🎓 [학생](/docs/middlehigh/student-guide)
+### 🧑‍🎓 [학생](middlehigh/student-guide)
