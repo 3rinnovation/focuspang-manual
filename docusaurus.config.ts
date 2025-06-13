@@ -54,13 +54,13 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   // may want to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "ko",
-    locales: ["en", "ko"],
+    locales: ["ko", "en"],
     localeConfigs: {
+      kr: {
+        htmlLang: "ko-KR",
+      },
       en: {
         htmlLang: "en-US",
-      },
-      ko: {
-        htmlLang: "ko-KR",
       },
     },
   },
@@ -78,7 +78,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       "classic",
       {
         docs: {
-          sidebarPath: "./sidebars.ts",
+          routeBasePath: "/",
+          sidebarPath: require.resolve("./sidebars.ts"),
           // 파일 넘버링 자동 패스
           numberPrefixParser: true,
           // Please change this to your repo.
@@ -146,7 +147,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
           items: [
             {
               label: "포커스팡 가이드",
-              to: "/docs/admin-guide/feature",
+              to: "/",
             },
           ],
         },
