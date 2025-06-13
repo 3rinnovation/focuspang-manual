@@ -1,0 +1,16 @@
+{
+  "position": 3,
+  "label": "focuspang for Students",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "focuspang Student Guide Contents",
+    "description": "Learn how to use focuspang as a student for effective learning.",
+    "keywords": ["student", "learning", "classroom", "focuspang"]
+  },
+  "customProps": {
+    "description": "Guide for students using focuspang"
+  }
+}

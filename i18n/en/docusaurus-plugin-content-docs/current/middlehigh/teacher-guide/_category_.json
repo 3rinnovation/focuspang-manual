@@ -1,0 +1,16 @@
+{
+  "position": 2,
+  "label": "focuspang for Teachers",
+  "collapsible": true,
+  "collapsed": true,
+  "className": "red",
+  "link": {
+    "type": "generated-index",
+    "title": "focuspang Teacher Guide Contents",
+    "description": "Learn how to use focuspang as a teacher to manage your classes effectively.",
+    "keywords": ["teacher", "classroom", "management", "focuspang"]
+  },
+  "customProps": {
+    "description": "Guide for teachers using focuspang"
+  }
+}

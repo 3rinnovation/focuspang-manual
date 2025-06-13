@@ -1,0 +1,33 @@
+---
+title: 6. Quiz Pang
+---
+
+# 6. Quiz Pang
+
+Quiz Pang is a quiz battle where students solve problems simultaneously when the teacher creates a quiz.
+
+1. Click the [+Create Quiz] button and select [Quiz] in the quiz creation window.
+
+![](/img/kr/elementary/teacher/06-01.jpg)
+![](/img/kr/elementary/teacher/06-02.jpg)
+
+2. Write the quiz name, question, passage, question type, and options for each item, then write the time limit and question explanation (optional), category (optional) and save.
+
+![](/img/kr/elementary/teacher/06-03.jpg)
+
+3. Click the [Correct Answer] button on the right side of the correct option among the choices for each question to designate the correct answer.
+
+![](/img/kr/elementary/teacher/06-04.jpg)
+![](/img/kr/elementary/teacher/06-05.jpg)
+
+4. After creating the quiz, you automatically return to the home screen. Click the lesson subject again, select Quiz Pang from the left category of that lesson, and you will see the quiz you just created.\
+   Click the [Start Quiz] button to allow students to solve the quiz.
+
+![](/img/kr/elementary/teacher/06-06.jpg)
+
+5. When the quiz starts, the quiz is displayed on student screens, and students need to solve the problems within the time limit set by the teacher.
+
+🚨 **Warning**
+
+- Quiz Pang cannot be conducted simultaneously during lessons, so please make sure to end the lesson before starting Quiz Pang.
+- When the quiz ends, the teacher must click the [End] button for students to exit the quiz window.
