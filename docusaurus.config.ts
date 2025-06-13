@@ -56,10 +56,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     defaultLocale: "ko",
     locales: ["ko", "en"],
     localeConfigs: {
-      kr: {
+      ko: {
+        label: "한국어",
         htmlLang: "ko-KR",
       },
       en: {
+        label: "English",
         htmlLang: "en-US",
       },
     },
