@@ -1,0 +1,30 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.guideSidebar.category.관리자용 포커스팡": {
+    "message": "focuspang for Administrators",
+    "description": "The label for category 관리자용 포커스팡 in sidebar guideSidebar"
+  },
+  "sidebar.guideSidebar.category.관리자용 포커스팡.link.generated-index.title": {
+    "message": "focuspang Administrator Guide Contents",
+    "description": "The generated-index page title for category 관리자용 포커스팡 in sidebar guideSidebar"
+  },
+  "sidebar.guideSidebar.category.선생님용 포커스팡": {
+    "message": "focuspang for Teachers",
+    "description": "The label for category 선생님용 포커스팡 in sidebar guideSidebar"
+  },
+  "sidebar.guideSidebar.category.선생님용 포커스팡.link.generated-index.title": {
+    "message": "focuspang Teacher Guide Contents",
+    "description": "The generated-index page title for category 선생님용 포커스팡 in sidebar guideSidebar"
+  },
+  "sidebar.guideSidebar.category.학생용 포커스팡": {
+    "message": "focuspang for Students",
+    "description": "The label for category 학생용 포커스팡 in sidebar guideSidebar"
+  },
+  "sidebar.guideSidebar.category.학생용 포커스팡.link.generated-index.title": {
+    "message": "focuspang Student Guide Contents",
+    "description": "The generated-index page title for category 학생용 포커스팡 in sidebar guideSidebar"
+  }
+}
