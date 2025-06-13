@@ -4,9 +4,9 @@ sidebar_position: 1
 slug: /middlehigh
 ---
 
-# ocusang Guide for Middle & High School
+# focuspang Guide for Middle & High School
 
-focusang provides optimized features for each type of user.
+focuspang provides optimized features for each type of user.
 
 Please select the appropriate user guide below.
 
