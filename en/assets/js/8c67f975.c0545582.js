@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfocuspang_manual=self.webpackChunkfocuspang_manual||[]).push([[3138],{3849:(u,a,n)=>{n.r(a),n.d(a,{default:()=>c});var s=n(6347),e=n(4848);function c(){return(0,e.jsx)(s.rd,{to:"/"})}}}]);

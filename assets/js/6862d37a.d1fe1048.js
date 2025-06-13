@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfocuspang_manual=self.webpackChunkfocuspang_manual||[]).push([[2282],{1643:(u,a,e)=>{e.r(a),e.d(a,{default:()=>c});var n=e(6347),s=e(4848);function c(){return(0,s.jsx)(n.rd,{to:"/docs/middlehigh/teacher-guide"})}}}]);
