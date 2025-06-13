@@ -32,3 +32,12 @@
 body {
   font-size: 1.125rem;
 }
+
+/* 해시 링크 (제목에 # 붙으면서 직접 링크) 숨기기 */
+.hash-link {
+  display: none;
+}
+
+.sidebar-intro {
+  font-weight: 700;
+}

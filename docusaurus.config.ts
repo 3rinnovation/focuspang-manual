@@ -79,6 +79,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       {
         docs: {
           sidebarPath: "./sidebars.ts",
+          // 파일 넘버링 자동 패스
+          numberPrefixParser: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -119,11 +121,18 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
       items: [
         {
           type: "docSidebar",
-          sidebarId: "guideSidebar",
+          sidebarId: "elementarySidebar",
           position: "left",
-          label: "포커스팡 가이드",
+          label: "초등학교용",
         },
         {
+          type: "docSidebar",
+          sidebarId: "middlehighSidebar",
+          position: "left",
+          label: "중고등학교용",
+        },
+        {
+          // 다국어 드롭다운
           type: "localeDropdown",
           position: "right",
         },

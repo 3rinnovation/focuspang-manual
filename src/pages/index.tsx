@@ -7,10 +7,10 @@ import { Redirect } from "@docusaurus/router";
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext();
   return (
-    // <div></div>
-    <Redirect to={`${siteConfig.baseUrl}docs/admin-guide/feature`} />
-    // <header className={clsx("hero hero--primary", styles.heroBanner)}>
-    //   <div className="container">
+    //<Redirect to={`${siteConfig.baseUrl}docs/admin-guide/feature`} />
+    <header className={styles.heroBanner}>
+      <div className="container">포커스팡에 오신 것을 환영합니다</div>
+    </header>
     //     <Heading as="h1" className="hero__title">
     //       포커스팡에 오신 것을 환영합니다
     //     </Heading>
@@ -23,8 +23,6 @@ function HomepageHeader() {
     //         포커스팡 사용 가이드
     //       </Link>
     //     </div>
-    //   </div>
-    // </header>
   );
 }
 
