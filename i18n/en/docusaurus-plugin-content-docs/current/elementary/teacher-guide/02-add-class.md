@@ -23,6 +23,7 @@ If special subject teachers create a 'class', all lessons will be bundled under 
 Therefore, please make sure to create lessons individually without creating a class.
 
 ![](/img/kr/elementary/teacher/02-03.jpg)
+![](/img/kr/elementary/teacher/02-04.jpg)
 
 ### Inviting
 
@@ -31,4 +32,4 @@ When you create a class, an invitation code for that class is automatically gene
 - Students must enter invitation code + student number + name to join the teacher's lesson.\
 - Even if the teacher adds any lesson within the timetable, the invitation code for the same class remains the same.
 
-![](/img/kr/elementary/teacher/02-04.jpg)
+![](/img/kr/elementary/teacher/02-05.jpg)
