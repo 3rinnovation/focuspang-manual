@@ -1,0 +1,15 @@
+---
+title: 11. Logout
+slug: /elementary/teacher-guide/logout
+---
+
+# 11. Logout
+
+Click your name on the home screen, then click the [Logout] button to log out.
+
+🚨 **Warning**
+
+- Please make sure to log out after class ends.
+- If you don't log out, duplicate login may occur, and in this case, the student monitoring function may not work properly.
+
+![](/img/kr/elementary/teacher/11-01.jpg)
