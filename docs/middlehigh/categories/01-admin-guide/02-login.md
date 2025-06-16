@@ -1,7 +1,6 @@
 ---
 title: 2. 로그인
-
-slug: /elementary/admin-guide/login
+slug: /middlehigh/admin-guide/login
 ---
 
 # 2. 로그인

@@ -1,7 +1,6 @@
 ---
 title: 5. 설정
-
-slug: /elementary/admin-guide/settings
+slug: /middlehigh/admin-guide/settings
 ---
 
 # 5. 설정

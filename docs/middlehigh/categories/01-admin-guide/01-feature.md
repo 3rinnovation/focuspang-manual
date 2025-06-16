@@ -1,7 +1,6 @@
 ---
 title: 1. 특징
-
-slug: /elementary/admin-guide/feature
+slug: /middlehigh/admin-guide/feature
 ---
 
 # 1. 특징

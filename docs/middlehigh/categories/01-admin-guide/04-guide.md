@@ -1,7 +1,6 @@
 ---
 title: 4. 사용 가이드
-
-slug: /elementary/admin-guide/guide
+slug: /middlehigh/admin-guide/guide
 ---
 
 # 4. 사용 가이드

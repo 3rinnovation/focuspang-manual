@@ -1,7 +1,6 @@
 ---
 title: 3. 계정 관리
-
-slug: /elementary/admin-guide/usage
+slug: /middlehigh/admin-guide/usage
 ---
 
 # 3. 계정 관리
