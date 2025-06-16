@@ -1,8 +1,8 @@
 ---
-title: 10. Information Change
+title: 10. Edit Information
 ---
 
-# 10. Information Change
+# 10. Edit Information
 
 Click your name on the home screen to go to the settings page.
 

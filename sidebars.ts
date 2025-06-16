@@ -2,8 +2,6 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
 // 기본 사이드바 정의
 const sidebars: SidebarsConfig = {
-  // 🔧 첫 페이지 오류
-  // http://localhost:3000/docs/admin-guide/feature
   elementarySidebar: [
     {
       type: "doc",
@@ -48,8 +46,6 @@ const sidebars: SidebarsConfig = {
         "elementary/teacher-guide/assignment",
         "elementary/teacher-guide/manage-student",
         "elementary/teacher-guide/group-activity",
-        //"elementary/teacher-guide/change-role",
-        //"elementary/teacher-guide/settings",
         {
           type: "category",
           label: "10. 정보 변경",
