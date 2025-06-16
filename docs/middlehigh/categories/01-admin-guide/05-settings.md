@@ -1,0 +1,11 @@
+---
+title: 5. 설정
+
+slug: /elementary/admin-guide/settings
+---
+
+# 5. 설정
+
+- 왼쪽 상단의 톱니바퀴 아이콘을 클릭하면 계정 비밀번호를 변경할 수 있습니다.
+
+  ![](/img/manager_1-5.jpg)
