@@ -1,8 +1,8 @@
 ---
-title: 1.3 Account Management
+title: 3. Account Management
 ---
 
-# 1.3 Account Management
+# 3, Account Management
 
 - You can add new teachers and administrators by clicking the **\[Register Admin]** button.
 - Newly added administrators have the same privileges as the teacher who received the initial admin account.

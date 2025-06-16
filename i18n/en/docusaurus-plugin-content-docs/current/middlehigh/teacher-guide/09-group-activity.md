@@ -1,15 +1,13 @@
 ---
-title: 2.8 Student List
+title: 9. Group Activity
 ---
 
-# 2.8 Student List
+# 9. Group Activity
 
-- Click **\[Student List]** to go to the student list page.
-- Click the pencil icon to modify student information (class, name).
-- Click the document icon to remove a student registered in the class.
-
-  ![](/img/en_teacher/en_teacher_2-8_01.jpg)
-
-  ![](/img/en_teacher/en_teacher_2-8_02.jpg)
-
-  ![](/img/en_teacher/en_teacher_2-8_03.jpg)
+- Click **\[Group Activity]** to go to the group activity page.
+- Enter a name for the group activity topic and click **\[Create Group Activity Topic]**.
+- Click **\[Create Group]**.
+- In the create group popup window, enter the group name and select a group creation method.
+- If you select **\[Manual Selection]**, choose the students to include in that group and click **\[Create]**.
+- If you select **\[Random Assignment]**, choose the number of members per group and the number of groups, then click **\[Create]**.
+- Start the class, select **\[By Group]** for the student screen list, and select the created group activity topic.

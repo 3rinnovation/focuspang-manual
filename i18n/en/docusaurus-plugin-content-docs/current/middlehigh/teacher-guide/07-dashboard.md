@@ -1,15 +1,29 @@
 ---
-title: 2.6 Assignment Management
+title: 7. Dashboard
 ---
 
-# 2.6 Assignment Management
+# 7. Dashboard
 
-- You can manage registered assignments in the **\[Assignment Management]** menu.
-- In Assignment Management, click **\[+Add Assignment]**, then write the title, assignment release date/time, content, and register.
-- You can edit assignment content through **\[More]** in the **\[Assignment Management]** list, and delete it with the **[Delete]** button.
+- Manage students through charts.
+- When you select a chart, it is added to and displayed on the dashboard.
+- Types of charts include Attendance, Academic Achievement, Assignments, Mental Health, and Attention Focus.
 
-  <!-- ![](/img/en_teacher/en_teacher_2-6_01.jpg) -->
+  - Attendance: Shows students' attendance status.
+  - Academic Achievement: Shows today's Quizpang rankings, average Quizpang scores, and average Quizpang wrong answer rates.
+  - Assignments: Shows students' assignment submission status.
+  - Mental Health: Shows students with low and high impulsivity and the class average impulsivity tendency.
+  - Attention Focus: Shows class average attention concentration rate, and students with high and low concentration.
 
-  <!-- ![](/img/en_teacher/en_teacher_2-6_02.jpg) -->
+    <!-- ![](/img/en_teacher/en_teacher_2-7_01.jpg) -->
 
-  <!-- ![](/img/en_teacher/en_teacher_2-6_03.jpg) -->
+### 2.7.1 Adding and Deleting Charts
+
+1. Use the **\[+Add Chart]** button to select desired chart items to add to the dashboard.
+2. You can delete a chart by clicking the **\[x]** button in the upper right corner of the added chart.
+3. If you need additional charts beyond the configured ones, click **\[Order New Chart]** to contact headquarters.
+
+   <!-- ![](/img/en_teacher/en_teacher_2-7-1_01.jpg) -->
+
+   <!-- ![](/img/en_teacher/en_teacher_2-7-1_02.jpg) -->
+
+   <!-- ![](/img/en_teacher/en_teacher_2-7-1_03.jpg) -->
