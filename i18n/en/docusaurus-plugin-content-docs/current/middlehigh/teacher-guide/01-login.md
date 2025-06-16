@@ -1,8 +1,8 @@
 ---
-title: 2.1 Login
+title: 1. Login
 ---
 
-# 2.1 Login
+# 1. Login
 
 Teacher accounts can be requested through registration.
 

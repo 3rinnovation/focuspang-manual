@@ -14,7 +14,7 @@ Click the [+Add Lesson] button on the lesson timetable screen.
 
 Enter Subject / Grade / Class / Day / Period and click the [Add Lesson] button to create the lesson.
 
-- If you want to add the same lesson to other days, click the [+Add Lesson Time] button to add multiple lessons at once.
+- If you want to add the same class on other days as well, click the [+ Add Class Time] button to add multiple class sessions at once.
 
 - If there are any incorrectly entered lessons, you can delete them at any time.
 

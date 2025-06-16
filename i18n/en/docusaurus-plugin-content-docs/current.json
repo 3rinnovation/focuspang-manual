@@ -3,28 +3,31 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.guideSidebar.category.관리자용 포커스팡": {
-    "message": "focuspang for Administrators",
-    "description": "The label for category 관리자용 포커스팡 in sidebar guideSidebar"
+  "sidebar.elementarySidebar.doc.초등학교 포커스팡 가이드": {
+    "message": "focuspang Guide for Elementary School"
   },
-  "sidebar.guideSidebar.category.관리자용 포커스팡.link.generated-index.title": {
-    "message": "focuspang Administrator Guide Contents",
-    "description": "The generated-index page title for category 관리자용 포커스팡 in sidebar guideSidebar"
+  "sidebar.elementarySidebar.category.관리자": {
+    "message": "for Administrator"
   },
-  "sidebar.guideSidebar.category.선생님용 포커스팡": {
-    "message": "focuspang for Teachers",
-    "description": "The label for category 선생님용 포커스팡 in sidebar guideSidebar"
+  "sidebar.elementarySidebar.category.선생님": {
+    "message": "for Teacher"
   },
-  "sidebar.guideSidebar.category.선생님용 포커스팡.link.generated-index.title": {
-    "message": "focuspang Teacher Guide Contents",
-    "description": "The generated-index page title for category 선생님용 포커스팡 in sidebar guideSidebar"
+  "sidebar.elementarySidebar.category.10. 정보 변경": {
+    "message": "10. Edit Information"
   },
-  "sidebar.guideSidebar.category.학생용 포커스팡": {
-    "message": "focuspang for Students",
-    "description": "The label for category 학생용 포커스팡 in sidebar guideSidebar"
+  "sidebar.elementarySidebar.category.학생": {
+    "message": "for Student"
   },
-  "sidebar.guideSidebar.category.학생용 포커스팡.link.generated-index.title": {
-    "message": "focuspang Student Guide Contents",
-    "description": "The generated-index page title for category 학생용 포커스팡 in sidebar guideSidebar"
+  "sidebar.middlehighSidebar.doc.중고등학교 포커스팡 가이드": {
+    "message": "focuspang Guide for Middle & High School"
+  },
+  "sidebar.middlehighSidebar.category.관리자": {
+    "message": "for Administrator"
+  },
+  "sidebar.middlehighSidebar.category.선생님": {
+    "message": "for Teacher"
+  },
+  "sidebar.middlehighSidebar.category.학생": {
+    "message": "for Student"
   }
 }

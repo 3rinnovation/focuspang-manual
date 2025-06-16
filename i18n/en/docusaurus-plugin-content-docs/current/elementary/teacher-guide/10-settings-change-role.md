@@ -2,7 +2,7 @@
 title: Homeroom/Special Subject Selection
 ---
 
-# Homeroom/Special Subject Selection
+# Select Teacher roles
 
 1. Click your name on the home screen to go to the settings page.
 

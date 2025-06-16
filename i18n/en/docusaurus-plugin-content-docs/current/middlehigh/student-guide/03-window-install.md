@@ -1,8 +1,8 @@
 ---
-title: 3.3 MS Windows Installation
+title: 3. MS Windows Installation
 ---
 
-# 3.3 MS Windows Installation
+# 3. MS Windows Installation
 
 - Download and install the Windows exe file.
 - Set Chrome browser as your default browser.

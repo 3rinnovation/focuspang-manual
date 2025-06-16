@@ -10,7 +10,7 @@ title: 5. Focus Time
 
 ![](/img/kr/elementary/teacher/05-01.jpg)
 
-2. If students are participating in other lessons, a popup will appear asking for understanding that it may disturb the class. Click OK to start the lesson.
+2. If a student is participating in another class, a popup message will appear saying, "This may interfere with another class. Thank you for your understanding." Click Confirm to proceed and start the class.
 
 ![](/img/kr/elementary/teacher/05-02.jpg)
 
@@ -36,7 +36,9 @@ Please make sure to start at the scheduled lesson time.
 
 4. Full Screen View: Click full screen view to see the screen in a larger, expanded view.
 
-5. Attention Focus: You can check students' attention focus status.
+5. Focus Monitoring: You can check students’ level of focus through the student screen monitoring feature.
+
+   The border color around each student's screen (shown below the teacher’s main screen) indicates their focus level.
 
 - Green border: Students with high lesson concentration
 - Orange border: Students with low lesson concentration

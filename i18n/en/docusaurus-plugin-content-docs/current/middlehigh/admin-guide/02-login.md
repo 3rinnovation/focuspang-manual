@@ -1,8 +1,8 @@
 ---
-title: 1.2 Login
+title: 2. Login
 ---
 
-# 1.2 Login
+# 2, Login
 
 - Access the focuspang Admin at http://admin.focuspang.com.
 - Log in with the issued admin account.

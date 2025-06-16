@@ -2,8 +2,6 @@ import type { SidebarsConfig } from "@docusaurus/plugin-content-docs";
 
 // 기본 사이드바 정의
 const sidebars: SidebarsConfig = {
-  // 🔧 첫 페이지 오류
-  // http://localhost:3000/docs/admin-guide/feature
   elementarySidebar: [
     {
       type: "doc",
@@ -48,8 +46,6 @@ const sidebars: SidebarsConfig = {
         "elementary/teacher-guide/assignment",
         "elementary/teacher-guide/manage-student",
         "elementary/teacher-guide/group-activity",
-        //"elementary/teacher-guide/change-role",
-        //"elementary/teacher-guide/settings",
         {
           type: "category",
           label: "10. 정보 변경",
@@ -122,16 +118,16 @@ const sidebars: SidebarsConfig = {
       collapsed: true,
       items: [
         "middlehigh/teacher-guide/login",
-        "middlehigh/teacher-guide/add-class",
-        "middlehigh/teacher-guide/student-list",
+        "middlehigh/teacher-guide/add-course",
         "middlehigh/teacher-guide/announcement",
-        "middlehigh/teacher-guide/delete-announcement",
-        "middlehigh/teacher-guide/dashboard",
         "middlehigh/teacher-guide/focustime",
-        "middlehigh/teacher-guide/group-activity",
-        "middlehigh/teacher-guide/assignment",
         "middlehigh/teacher-guide/quizpang",
-        "middlehigh/teacher-guide/web-app-control",
+        "middlehigh/teacher-guide/assignment",
+        "middlehigh/teacher-guide/dashboard",
+        "middlehigh/teacher-guide/manage-student",
+        "middlehigh/teacher-guide/group-activity",
+        "middlehigh/teacher-guide/settings",
+        "middlehigh/teacher-guide/logout",
       ],
     },
     {
@@ -144,18 +140,18 @@ const sidebars: SidebarsConfig = {
       },
       collapsed: true,
       items: [
-        "middlehigh/student-guide/android-install-guide",
-        "middlehigh/student-guide/android-setup",
+        "middlehigh/student-guide/android-install",
+        "middlehigh/student-guide/ipad-install",
         "middlehigh/student-guide/window-install",
-        "middlehigh/student-guide/window-setup",
         "middlehigh/student-guide/chromebook-install",
         "middlehigh/student-guide/login",
-        "middlehigh/student-guide/add-class",
-        "middlehigh/student-guide/display-in-class",
-        "middlehigh/student-guide/web-app-control",
+        "middlehigh/student-guide/add-course",
         "middlehigh/student-guide/announcement",
         "middlehigh/student-guide/assignment",
+        "middlehigh/student-guide/focustime",
+        "middlehigh/student-guide/quizpang",
         "middlehigh/student-guide/group-activity",
+        "middlehigh/student-guide/logout",
       ],
     },
   ],

@@ -6,5 +6,11 @@
   "item.label.포커스팡 가이드": {
     "message": "focuspang Guide",
     "description": "Navbar item with label 포커스팡 가이드"
+  },
+  "item.label.초등학교용": {
+    "message": "Elementary School"
+  },
+  "item.label.중고등학교용": {
+    "message": "Middle & High School"
   }
 }
