@@ -1,23 +1,168 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/** --- */
+
+.main {
+  min-height: 100vh;
+  padding: 0;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  color: #6b7280;
+  font-weight: 300;
+  text-align: center;
+}
+
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-bottom: 4rem;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 1rem;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: none;
+}
+
+[data-theme="dark"] .card {
+  background: #2d2d2d;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+[data-theme="dark"] .card:hover {
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+}
+
+.cardIcon {
+  width: 80px;
+  height: 80px;
+  margin: 0 auto 1.5rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.iconSvg {
+  width: 5rem;
+  height: 5rem;
+  object-fit: contain;
+}
+
+.card:hover .cardIcon {
+  transform: scale(1.1);
+}
+
+.cardGreen .cardIcon {
+  background-color: #c4e699;
+}
+
+.cardBlue .cardIcon {
+  background-color: #cbd9fb;
+}
+
+.cardTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  transition: color 0.3s ease;
+}
+
+.cardDescription {
+  color: #6b7280;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  white-space: pre-line; /* index 파일에서 줄바꿈 */
+}
+
+.cardButton {
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 2rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.cardButton:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.cardGreen .cardButton {
+  background: #7eba49;
+}
+
+.cardGreen .cardButton:hover {
+  background: #438508;
+}
+
+.cardBlue .cardButton {
+  background: #4c8df6;
+}
+
+.cardBlue .cardButton:hover {
+  background: #30599c;
+}
+
+/* 반응형 디자인 */
+@media (max-width: 768px) {
+  .content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .cardGrid {
+    grid-template-columns: 1fr;
+  }
 }
