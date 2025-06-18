@@ -1,23 +1,235 @@
-/**
- * CSS files with the .module.css suffix will be treated as CSS modules
- * and scoped locally.
- */
-
-.heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
-}
-
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
-}
-
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/** --- */
+
+.main {
+  padding: 0;
+  margin-top: 4rem;
+}
+
+.content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 4rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  line-height: 1.1;
+  text-align: center;
+}
+
+.subTitle {
+  font-size: 1.5rem;
+  color: var(--mainpage-gray);
+  text-align: center;
+}
+
+.section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  margin-bottom: 4rem;
+}
+
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card {
+  border-radius: 1rem;
+  padding: 3rem 1.5rem;
+  text-align: center;
+  box-shadow: 0 10px 25px var(--mainpage-box-shadow);
+  transition: all 0.3s ease;
+  border: none;
+  min-height: 350px;
+  color: inherit;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  /* 아이콘 절대 위치를 위해 */
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 20px 40px var(--mainpage-box-shadow-hover);
+  text-decoration: none;
+  color: inherit;
+}
+
+.cardGreen {
+  background-color: #c4e699;
+}
+
+.cardBlue {
+  background-color: #cbd9fb;
+}
+
+.cardYellow {
+  background-color: #ffefc1;
+}
+
+.cardIcon {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 200px;
+  height: 200px;
+  opacity: 0.7;
+  z-index: 1; /* 텍스트보다 뒤에 */
+  transition: all 0.3s ease;
+}
+
+.cardYellow .cardIcon {
+  width: 130px;
+  height: 130px;
+}
+
+.card:hover .cardIcon {
+  transform: scale(1.05); /* 호버 시 살짝 확대 */
+}
+
+.iconSvg {
+  width: 100%; /* 아이콘 컨테이너에 맞춤 */
+  height: 100%;
+  object-fit: contain;
+}
+
+.cardTitle {
+  color: black;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+  transition: color 0.3s ease;
+  z-index: 2; /* 아이콘보다 앞에 */
+  word-break: keep-all; /* 단어 분절 */
+  text-align: left;
+}
+
+/**
+[data-theme="dark"] .cardYellow .cardTitle {
+  color: #dcdcdc;
+}
+  */
+
+.cardButton {
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  display: inline-block;
+  z-index: 2; /* 아이콘보다 앞에 */
+}
+
+.cardButton:hover {
+  color: white;
+  text-decoration: none;
+}
+
+.cardGreen .cardButton {
+  background: #7eba49;
+}
+
+.cardGreen .cardButton:hover {
+  background: #438508;
+}
+
+.cardBlue .cardButton {
+  background: #4c8df6;
+}
+
+.cardBlue .cardButton:hover {
+  background: #30599c;
+}
+
+.cardYellow .cardButton {
+  background: #f2c94c;
+}
+
+.cardYellow .cardButton:hover {
+  background: #b88f1c;
+}
+
+@media (max-width: 768px) {
+  .main {
+    margin-top: 0;
+  }
+
+  .content {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 0;
+  }
+
+  .title {
+    font-size: 2.5rem;
+  }
+
+  .subTitle {
+    font-size: 1.3rem;
+  }
+
+  .cardGrid {
+    grid-template-columns: 1fr;
+    max-width: 90%;
+  }
+
+  .card {
+    min-height: 250px;
+    padding: 2rem 1rem;
+  }
+
+  .cardTitle {
+    font-size: 1.5rem;
+  }
+
+  .cardButton {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    margin-top: 0;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .subTitle {
+    font-size: 1rem;
+    word-break: keep-all;
+  }
+
+  .card {
+    min-height: 200px;
+  }
 }

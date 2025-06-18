@@ -4,30 +4,63 @@
     "description": "The label for version current"
   },
   "sidebar.elementarySidebar.doc.초등학교 포커스팡 가이드": {
-    "message": "focuspang Guide for Elementary School"
+    "message": "focuspang Guide for Elementary School",
+    "description": "The label for the doc item 초등학교 포커스팡 가이드 in sidebar elementarySidebar, linking to the doc elementary/intro"
   },
   "sidebar.elementarySidebar.category.관리자": {
-    "message": "for Administrator"
+    "message": "for Administrator",
+    "description": "The label for category 관리자 in sidebar elementarySidebar"
   },
   "sidebar.elementarySidebar.category.선생님": {
-    "message": "for Teacher"
+    "message": "for Teacher",
+    "description": "The label for category 선생님 in sidebar elementarySidebar"
   },
   "sidebar.elementarySidebar.category.10. 정보 변경": {
-    "message": "10. Edit Information"
+    "message": "10. Edit Information",
+    "description": "The label for category 10. 정보 변경 in sidebar elementarySidebar"
   },
   "sidebar.elementarySidebar.category.학생": {
-    "message": "for Student"
+    "message": "for Student",
+    "description": "The label for category 학생 in sidebar elementarySidebar"
   },
   "sidebar.middlehighSidebar.doc.중고등학교 포커스팡 가이드": {
-    "message": "focuspang Guide for Middle & High School"
+    "message": "focuspang Guide for Middle & High School",
+    "description": "The label for the doc item 중고등학교 포커스팡 가이드 in sidebar middlehighSidebar, linking to the doc middlehigh/intro"
   },
   "sidebar.middlehighSidebar.category.관리자": {
-    "message": "for Administrator"
+    "message": "for Administrator",
+    "description": "The label for category 관리자 in sidebar middlehighSidebar"
   },
   "sidebar.middlehighSidebar.category.선생님": {
-    "message": "for Teacher"
+    "message": "for Teacher",
+    "description": "The label for category 선생님 in sidebar middlehighSidebar"
   },
   "sidebar.middlehighSidebar.category.학생": {
-    "message": "for Student"
+    "message": "for Student",
+    "description": "The label for category 학생 in sidebar middlehighSidebar"
+  },
+  "sidebar.elementarySidebar.category.관리자.link.generated-index.title": {
+    "message": "Index for Administrator",
+    "description": "The generated-index page title for category 관리자 in sidebar elementarySidebar"
+  },
+  "sidebar.elementarySidebar.category.선생님.link.generated-index.title": {
+    "message": "Index for Teacher",
+    "description": "The generated-index page title for category 선생님 in sidebar elementarySidebar"
+  },
+  "sidebar.elementarySidebar.category.학생.link.generated-index.title": {
+    "message": "Index for Student",
+    "description": "The generated-index page title for category 학생 in sidebar elementarySidebar"
+  },
+  "sidebar.middlehighSidebar.category.관리자.link.generated-index.title": {
+    "message": "Index for Administrator",
+    "description": "The generated-index page title for category 관리자 in sidebar middlehighSidebar"
+  },
+  "sidebar.middlehighSidebar.category.선생님.link.generated-index.title": {
+    "message": "Index for Teacher",
+    "description": "The generated-index page title for category 선생님 in sidebar middlehighSidebar"
+  },
+  "sidebar.middlehighSidebar.category.학생.link.generated-index.title": {
+    "message": "Index for Student",
+    "description": "The generated-index page title for category 학생 in sidebar middlehighSidebar"
   }
 }
