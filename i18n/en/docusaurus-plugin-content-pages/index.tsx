@@ -10,16 +10,23 @@ export default function Home(): JSX.Element {
     {
       icon: "/img/icon-elementary.svg",
       title: "For Elementary Schools",
-      description: "Guide about\nAdmin/Teacher/Student Page",
+      buttonText: "Learn More",
       className: styles.cardGreen,
       path: `${siteConfig.baseUrl}docs/elementary`,
     },
     {
       icon: "/img/icon-middlehigh.svg",
       title: "For Middle & High Schools",
-      description: "Guide about\nAdmin/Teacher/Student Page",
+      buttonText: "Learn More",
       className: styles.cardBlue,
       path: `${siteConfig.baseUrl}docs/middlehigh`,
+    },
+    {
+      icon: "/img/icon-kakaotalk.svg",
+      title: "KakaoTalk Help",
+      buttonText: "Contact Us",
+      className: styles.cardYellow,
+      path: "https://pf.kakao.com/_xjxgGDxj",
     },
   ];
 
@@ -27,19 +34,23 @@ export default function Home(): JSX.Element {
     <Layout title="Welcome to Focuspang">
       <main className={styles.main}>
         <div className={styles.content}>
-          <h1 className={styles.title}>How to Use focusPang</h1>
-          <p className={styles.subtitle}>
-            focuspang provides an offline, face-to-face class management service{" "}
-            <b>for teachers</b>,
+          <h1 className={styles.title}>How to Use focuspang</h1>
+          <p className={styles.subTitle}>
+            focuspang provides an offline, face-to-face class management service
+            for teachers,
             <br />
-            along with focus, study habit, and mental healthcare services{" "}
-            <b>for students.</b>
+            along with focus, study habit, and mental healthcare services for
+            students.
           </p>
         </div>
         <section className={styles.section}>
           <div className={styles.cardGrid}>
             {quickStartCards.map((card, index) => (
-              <div key={index} className={`${styles.card} ${card.className}`}>
+              <Link
+                key={index}
+                to={card.path}
+                className={`${styles.card} ${card.className}`}
+              >
                 <div className={styles.cardIcon}>
                   <img
                     src={card.icon || "/placeholder.svg"}
@@ -48,11 +59,8 @@ export default function Home(): JSX.Element {
                   />
                 </div>
                 <h3 className={styles.cardTitle}>{card.title}</h3>
-                <p className={styles.cardDescription}>{card.description}</p>
-                <Link to={card.path} className={styles.cardButton}>
-                  Click
-                </Link>
-              </div>
+                <div className={styles.cardButton}>{card.buttonText}</div>
+              </Link>
             ))}
           </div>
         </section>
