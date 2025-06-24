@@ -5,6 +5,14 @@
  */
 
 /* You can override the default Infima variables here. */
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
 :root {
   --ifm-color-primary: #2e8555;
   --ifm-color-primary-dark: #29784c;
@@ -13,7 +21,8 @@
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
-  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: "Pretendard-Regular";
+  --ifm-font-family-monospace: "Pretendard-Regular";
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
   --mainpage-bg-color: #fafafa;
   --mainpage-gray: #595959;
@@ -42,7 +51,7 @@ html {
 }
 
 body {
-  font-size: 1.125rem;
+  font-size: 1.2rem;
 }
 
 /* 해시 링크 (제목에 # 붙으면서 직접 링크) 숨기기 */
@@ -51,6 +60,16 @@ body {
 }
 
 .sidebar-intro {
+  font-weight: 700;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+}
+
+.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1
+  > .menu__list-item-collapsible
+  > .menu__link--sublist {
   font-weight: 700;
 }
 

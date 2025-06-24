@@ -22,11 +22,11 @@ export default function Home(): JSX.Element {
       path: `${siteConfig.baseUrl}docs/middlehigh`,
     },
     {
-      icon: "/img/icon-kakaotalk.svg",
-      title: "카카오톡 문의",
+      icon: "/img/icon-qna.svg",
+      title: "즉문즉답",
       buttonText: "질문하기",
       className: styles.cardYellow,
-      path: "https://pf.kakao.com/_xjxgGDxj",
+      path: "https://focuspang.com//ask.html",
     },
   ];
 

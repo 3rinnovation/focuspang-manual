@@ -1,20 +1,7 @@
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-/** --- */
-
-.main {
-  padding: 0;
-  margin-top: 4rem;
-}
-
 .content {
   max-width: 1200px;
   margin: 0 auto;
-  padding: 4rem 2rem;
+  padding: 6rem 2rem;
 
   display: flex;
   align-items: center;
@@ -95,17 +82,12 @@
 .cardIcon {
   position: absolute;
   bottom: -20px;
-  right: -20px;
+  right: -30px;
   width: 200px;
   height: 200px;
   opacity: 0.7;
   z-index: 1; /* 텍스트보다 뒤에 */
   transition: all 0.3s ease;
-}
-
-.cardYellow .cardIcon {
-  width: 130px;
-  height: 130px;
 }
 
 .card:hover .cardIcon {
@@ -128,12 +110,6 @@
   word-break: keep-all; /* 단어 분절 */
   text-align: left;
 }
-
-/**
-[data-theme="dark"] .cardYellow .cardTitle {
-  color: #dcdcdc;
-}
-  */
 
 .cardButton {
   color: white;
@@ -170,7 +146,7 @@
 }
 
 .cardYellow .cardButton {
-  background: #f2c94c;
+  background: #fcbf08;
 }
 
 .cardYellow .cardButton:hover {
