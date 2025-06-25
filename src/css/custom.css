@@ -92,3 +92,7 @@ html[data-theme="light"] .alert--warning {
 html[data-theme="light"] .alert--danger {
   color: #2b0202;
 }
+
+.alert a {
+  text-decoration: none;
+}
