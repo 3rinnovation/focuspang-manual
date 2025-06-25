@@ -1,8 +1,8 @@
 {
-  "label": "4. 수업 관리",
+  "label": "4. 수업 진행",
   "collapsed": false,
   "link": {
     "type": "doc",
-    "id": "teacher-manage-course-intro"
+    "id": "teacher-goto-course-intro"
   }
 }
