@@ -79,3 +79,20 @@ body {
   display: block;
   margin: 0 auto;
 }
+
+/* Admonitions 텍스트 컬러 */
+html[data-theme="light"] .alert--info {
+  color: #031c2c;
+}
+
+html[data-theme="light"] .alert--warning {
+  color: #362004;
+}
+
+html[data-theme="light"] .alert--danger {
+  color: #2b0202;
+}
+
+.alert a {
+  text-decoration: none;
+}
