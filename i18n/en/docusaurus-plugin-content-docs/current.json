@@ -47,6 +47,10 @@
     "message": "for Teacher",
     "description": "The label for category 선생님 in sidebar middlehighSidebar"
   },
+  "sidebar.middlehighSidebar.category.3. 수업 진행": {
+    "message": "3. Go to a class",
+    "description": "The label for category 3. 수업 진행 in sidebar middlehighSidebar"
+  },
   "sidebar.middlehighSidebar.category.학생": {
     "message": "for Student",
     "description": "The label for category 학생 in sidebar middlehighSidebar"
