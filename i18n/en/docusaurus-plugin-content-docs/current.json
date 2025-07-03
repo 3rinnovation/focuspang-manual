@@ -47,9 +47,21 @@
     "message": "for Teacher",
     "description": "The label for category 선생님 in sidebar middlehighSidebar"
   },
+  "sidebar.middlehighSidebar.category.3. 수업 진행": {
+    "message": "3. Go to a class",
+    "description": "The label for category 3. 수업 진행 in sidebar middlehighSidebar"
+  },
   "sidebar.middlehighSidebar.category.학생": {
     "message": "for Student",
     "description": "The label for category 학생 in sidebar middlehighSidebar"
+  },
+  "sidebar.middlehighSidebar.category.1. 설치": {
+    "message": "1. How to install",
+    "description": "The label for category 1. 설치 in sidebar middlehighSidebar"
+  },
+  "sidebar.middlehighSidebar.category.3. 수업 참여": {
+    "message": "3. Attend a class",
+    "description": "The label for category 3. 수업 참여 in sidebar middlehighSidebar"
   },
   "sidebar.elementarySidebar.category.관리자.link.generated-index.title": {
     "message": "Index for Administrator",
