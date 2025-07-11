@@ -21,7 +21,7 @@ slug: /elementary
   <a class="fp-card" href="/docs/elementary/teacher-guide">
     <div class="fp-card-icon">👩‍🏫</div>
     <div class="fp-card-title">선생님용 안내</div>
-    <div class="fp-card-desc">학생을 도와주는 선생님</div>
+    <div class="fp-card-desc">수업을 진행하는 선생님</div>
   </a>
   <a class="fp-card" href="/docs/elementary/admin-guide">
     <div class="fp-card-icon">🛠️</div>

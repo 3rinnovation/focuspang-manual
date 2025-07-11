@@ -21,7 +21,7 @@ slug: /middlehigh
   <a class="fp-card" href="/docs/middlehigh/teacher-guide">
     <div class="fp-card-icon">👩‍🏫</div>
     <div class="fp-card-title">선생님용 안내</div>
-    <div class="fp-card-desc">학생들을 도와주는 선생님</div>
+    <div class="fp-card-desc">수업을 진행하는 선생님</div>
   </a>
   <a class="fp-card" href="/docs/middlehigh/admin-guide">
     <div class="fp-card-icon">🛠️</div>
