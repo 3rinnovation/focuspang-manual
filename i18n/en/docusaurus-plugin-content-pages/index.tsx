@@ -31,7 +31,7 @@ export default function Home(): JSX.Element {
   ];
 
   return (
-    <Layout title="Welcome to Focuspang">
+    <Layout title="Welcome to focuspang">
       <main className={styles.main}>
         <div className={styles.content}>
           <h1 className={styles.title}>How to Use focuspang</h1>
