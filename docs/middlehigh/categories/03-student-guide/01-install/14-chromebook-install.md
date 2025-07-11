@@ -3,10 +3,24 @@ title: 크롬북(Chromebook) 설치
 slug: /middlehigh/student-guide/install-chromebook
 ---
 
-# 크롬북(Chromebook) 설치
+# 크롬북에 포커스팡 설치하기
 
-- **크롬 확장 프로그램**을 설치합니다. 동영상 가이드([🔗바로가기](https://focuspang.com/_dn_.html#Google))를 참조하세요.
+안녕하세요!
+이 안내는 학생이 크롬북에 포커스팡을 직접 설치할 수 있도록 아주 쉽게 설명해 드릴 거예요.
 
-- **크롬 브라우저**에서 사이트([🔗바로가기](https://student.focuspang.com))에 접속해 사용합니다.
+## 1단계. 크롬 확장 프로그램 설치
+- 아래 **다운로드 버튼**을 눌러 포커스팡 크롬 확장 프로그램을 설치해 주세요.
 
-- 선생님이 **CEU를 이용**하여 크롬 확장 프로그램을 **모든 학생에게 강제 설치**하고 **학생이 삭제하지 못하도록 고정**합니다.
+<p class="fp-download-btn-wrap">
+  <a class="fp-download-btn fp-download-btn-blue" href="https://chromewebstore.google.com/detail/%ED%8F%AC%EC%BB%A4%EC%8A%A4%ED%8C%A1-ai-%ED%81%AC%EB%A1%AC%EC%97%A3%EC%A7%80%EC%9A%A9/egokmjmmjaeeipngkeljjaoibjafeacp" target="_blank" rel="noopener noreferrer">크롬북용 확장 프로그램 설치</a>
+</p>
+
+- 설치가 어려우면 [설치 동영상](https://focuspang.com/_dn_.html#Google)을 참고해 주세요.
+
+## 2단계. 포커스팡 사이트 접속
+- 크롬 브라우저에서 [포커스팡 학생 사이트](https://student.focuspang.com)에 접속해 주세요.
+
+---
+
+이렇게 하면 크롬북에 포커스팡 설치가 끝나요!
+설치가 잘 안 되거나 화면이 안내와 다르면, 선생님께 말씀해 주세요.

@@ -1,98 +1,129 @@
-/**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
- * work well for content-centric websites.
- */
+/*
+  포커스팡 메뉴얼 카드형 안내 스타일
+  - 초등: 그린계열(fp-card-green)
+  - 중고등: 블루계열(fp-card-blue)
+*/
 
-/* You can override the default Infima variables here. */
-@font-face {
-  font-family: "Pretendard-Regular";
-  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
-    format("woff");
-  font-weight: 400;
-  font-style: normal;
+.fp-card-container {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem 0;
 }
 
-:root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
-  --ifm-font-family-base: "Pretendard-Regular";
-  --ifm-font-family-monospace: "Pretendard-Regular";
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
-  --mainpage-bg-color: #fafafa;
-  --mainpage-gray: #595959;
-  --mainpage-box-shadow: rgba(0, 0, 0, 0.1);
-  --mainpage-box-shadow-hover: rgba(0, 0, 0, 0.15);
-}
-
-/* For readability concerns, you should choose a lighter palette in dark mode. */
-[data-theme="dark"] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
-  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
-  --mainpage-bg-color: #292929;
-  --mainpage-gray: #d6d6d6;
-  --mainpage-box-shadow: rgba(0, 0, 0, 0.3);
-  --mainpage-box-shadow-hover: rgba(0, 0, 0, 0.4);
-}
-
-html {
-  background-color: var(--mainpage-bg-color);
-}
-
-body {
-  font-size: 1.2rem;
-}
-
-/* 해시 링크 (제목에 # 붙으면서 직접 링크) 숨기기 */
-.hash-link {
-  display: none;
-}
-
-.sidebar-intro {
-  font-weight: 700;
-  color: #333;
-  border-bottom: 2px solid #ddd;
-  margin-bottom: 0.75rem;
-  padding-bottom: 0.5rem;
-}
-
-.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1
-  > .menu__list-item-collapsible
-  > .menu__link--sublist {
-  font-weight: 700;
-}
-
-.imgDefaultSize {
-  width: 100%;
-  max-width: 500px;
-  display: block;
-  margin: 0 auto;
-}
-
-/* Admonitions 텍스트 컬러 */
-html[data-theme="light"] .alert--info {
-  color: #031c2c;
-}
-
-html[data-theme="light"] .alert--warning {
-  color: #362004;
-}
-
-html[data-theme="light"] .alert--danger {
-  color: #2b0202;
-}
-
-.alert a {
+.fp-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 220px;
+  padding: 2rem 1rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px var(--mainpage-box-shadow);
   text-decoration: none;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: box-shadow 0.2s, transform 0.2s;
+  background: #fff;
+  color: #333;
+}
+
+.fp-card:hover {
+  box-shadow: 0 8px 20px var(--mainpage-box-shadow-hover);
+  transform: translateY(-4px) scale(1.04);
+}
+
+.fp-card-icon {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.fp-card-title {
+  font-size: 1.15rem;
+  margin-bottom: 0.3rem;
+}
+
+.fp-card-desc {
+  font-size: 0.95rem;
+  font-weight: 400;
+  color: var(--mainpage-gray);
+}
+
+/* 초등(그린) 테마 */
+.fp-card-green .fp-card {
+  background: linear-gradient(135deg, #a8e063 0%, #56ab2f 100%);
+  color: #fff;
+}
+.fp-card-green .fp-card-desc {
+  color: #f3ffe5;
+}
+
+/* 중고등(블루) 테마 */
+.fp-card-blue .fp-card {
+  background: linear-gradient(135deg, #56ccf2 0%, #2f80ed 100%);
+  color: #fff;
+}
+.fp-card-blue .fp-card-desc {
+  color: #e9f5ff;
+}
+
+/* 다운로드 버튼 스타일 (초등: 그린, 중고등: 블루) */
+.fp-download-btn-wrap {
+  text-align: center;
+  margin: 18px 0 22px 0;
+}
+
+.fp-download-btn {
+  display: inline-block;
+  padding: 16px 36px;
+  font-weight: bold;
+  font-size: 1.15rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(44,123,228,0.13);
+  text-decoration: none;
+  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+/* 초등(그린) 버튼 */
+.fp-download-btn-green {
+  background: linear-gradient(90deg, #a8e063 0%, #56ab2f 100%);
+  color: #fff;
+}
+.fp-download-btn-green:hover {
+  background: linear-gradient(90deg, #56ab2f 0%, #a8e063 100%);
+  box-shadow: 0 4px 18px rgba(88,171,47,0.23);
+  transform: translateY(-2px) scale(1.04);
+}
+
+/* 중고등(블루) 버튼 */
+.fp-download-btn-blue {
+  background: linear-gradient(90deg, #56ccf2 0%, #2a7be4 100%);
+  color: #fff;
+}
+.fp-download-btn-blue:hover {
+  background: linear-gradient(90deg, #2a7be4 0%, #56ccf2 100%);
+  box-shadow: 0 4px 18px rgba(44,123,228,0.23);
+  transform: translateY(-2px) scale(1.04);
+}
+
+@media (max-width: 750px) {
+  .fp-card-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .fp-card {
+    width: 90vw;
+    max-width: 340px;
+    padding: 1.2rem 0.5rem;
+  }
+  .fp-download-btn {
+    width: 90vw;
+    max-width: 340px;
+    font-size: 1rem;
+    padding: 14px 0;
+  }
 }
