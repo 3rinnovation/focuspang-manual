@@ -6,7 +6,10 @@ slug: /middlehigh
 
 # focuspang Guide for Middle & High School
 
-focuspang provides optimized features for each type of user.
+Focuspang is a SEL (Social Emotional Learning) tool that helps you check your own attention level during class and join activities with your teacher in real time.
+For example, Focuspang provides activities like the Attention Thermometer and real-time attention checks.
+
+This guide helps you start Focuspang step by step, so anyone can follow along easily.
 
 Please select the appropriate user guide below.
 

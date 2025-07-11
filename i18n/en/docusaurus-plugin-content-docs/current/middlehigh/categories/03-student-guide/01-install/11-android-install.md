@@ -3,9 +3,12 @@ title: Android Installation
 slug: /middlehigh/student-guide/install-android
 ---
 
-# Install Android
+# Install Focuspang on Android Devices
 
-You can watch the installation guide video ([🔗Link](https://www.youtube.com/watch?v=XBcpvCpa3nk)) to see the overall process of installing Android for Students.
+Hello!
+This guide will help you install the Focuspang app on your device step by step, so anyone can do it alone.
+
+You can also watch the installation guide video ([🔗Link](https://www.youtube.com/watch?v=XBcpvCpa3nk)) to see the overall process of installing Android for Students.
 
 - Download and install the Android APK file for students.
 
