@@ -8,12 +8,12 @@ slug: /middlehigh/student-guide/install-window
 안녕하세요!
 이 안내는 학생이 윈도우즈 컴퓨터에 포커스팡을 직접 설치할 수 있도록 아주 쉽게 설명해 드릴 거예요.
 
-## 1단계. 설치 파일 받기
-- 아래 **다운로드 버튼**을 눌러 포커스팡 설치 파일을 받아 주세요.
-
-<p class="fp-download-btn-wrap">
+<div class="fp-install-btn-row">
   <a class="fp-download-btn fp-download-btn-blue" href="https://ss1.cloud.kt.com:1000/focuspang-media/downloads/FocuspangStudentSetup.exe" target="_blank" rel="noopener noreferrer">윈도우즈용 설치 파일 다운로드</a>
-</p>
+</div>
+
+## 1단계. 설치 파일 받기
+- 위 **다운로드 버튼**을 눌러 포커스팡 설치 파일을 받아 주세요.
 
 ## 2단계. 설치 시작하기
 - 설치 파일을 두 번 눌러 설치를 시작해요.
