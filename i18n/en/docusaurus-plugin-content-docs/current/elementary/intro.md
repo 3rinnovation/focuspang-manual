@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /elementary
 ---
 
-# focusang Guide for Elementary School
+# focuspang Guide for Elementary School
 
 focuspang is a SEL (Social Emotional Learning) tool that helps you check your own attention level during class and join activities with your teacher in real time.
 For example, focuspang provides activities like the Attention Thermometer and real-time attention checks.
