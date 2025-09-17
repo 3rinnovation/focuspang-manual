@@ -1,3 +1,117 @@
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-font-family-base: "Pretendard-Regular";
+  --ifm-font-family-monospace: "Pretendard-Regular";
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --mainpage-bg-color: #fafafa;
+  --mainpage-gray: #595959;
+  --mainpage-box-shadow: rgba(0, 0, 0, 0.1);
+  --mainpage-box-shadow-hover: rgba(0, 0, 0, 0.15);
+  --fp-card-shadow: 0 2px 8px rgba(0, 0, 0, 0.04),
+    0 4px 16px rgba(0, 0, 0, 0.08);
+  --fp-card-shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.08),
+    0 8px 32px rgba(0, 0, 0, 0.12);
+  --fp-card-bg: #ffffff;
+  --fp-card-border: #f0f0f0;
+  --fp-card-text: #333333;
+  --fp-download-btn-bg: #ffffff;
+  --fp-download-btn-border: #e0e0e0;
+  --fp-download-btn-text: #333333;
+  --fp-download-btn-hover-bg: #f8f8f8;
+  --fp-download-btn-hover-border: #d0d0d0;
+}
+
+[data-theme="dark"] {
+  --ifm-color-primary: #25c2a0;
+  --ifm-color-primary-dark: #21af90;
+  --ifm-color-primary-darker: #1fa588;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #29d5b0;
+  --ifm-color-primary-lighter: #32d8b4;
+  --ifm-color-primary-lightest: #4fddbf;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --mainpage-bg-color: #292929;
+  --mainpage-gray: #d6d6d6;
+  --mainpage-box-shadow: rgba(0, 0, 0, 0.3);
+  --mainpage-box-shadow-hover: rgba(0, 0, 0, 0.4);
+  --fp-card-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), 0 4px 16px rgba(0, 0, 0, 0.3);
+  --fp-card-shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.3),
+    0 8px 32px rgba(0, 0, 0, 0.4);
+  --fp-card-bg: #2a2a2a;
+  --fp-card-border: #404040;
+  --fp-card-text: #ffffff;
+  --fp-download-btn-bg: #3a3a3a;
+  --fp-download-btn-border: #505050;
+  --fp-download-btn-text: #ffffff;
+  --fp-download-btn-hover-bg: #4a4a4a;
+  --fp-download-btn-hover-border: #606060;
+}
+
+html {
+  background-color: var(--mainpage-bg-color);
+}
+
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-size: 1.2rem;
+}
+
+/* 해시 링크 (제목에 # 붙으면서 직접 링크) 숨기기 */
+.hash-link {
+  display: none;
+}
+
+.sidebar-intro {
+  font-weight: 700;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.5rem;
+}
+
+.theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1
+  > .menu__list-item-collapsible
+  > .menu__link--sublist {
+  font-weight: 700;
+}
+
+.imgDefaultSize {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Admonitions 텍스트 컬러 */
+html[data-theme="light"] .alert--info {
+  color: #031c2c;
+}
+
+html[data-theme="light"] .alert--warning {
+  color: #362004;
+}
+
+html[data-theme="light"] .alert--danger {
+  color: #2b0202;
+}
+
+.alert a {
+  text-decoration: none;
+}
+
 /*
   포커스팡 메뉴얼 카드형 안내 스타일
   - 초등: 그린계열(fp-card-green)
@@ -6,71 +120,147 @@
 
 .fp-card-container {
   display: flex;
-  gap: 1.5rem;
-  flex-wrap: wrap;
   justify-content: center;
-  margin: 2rem 0;
+  gap: 2rem;
+  margin: 4rem 0;
 }
 
 .fp-card {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 220px;
-  padding: 2rem 1rem;
+  justify-content: flex-start;
+  width: 300px;
+  height: auto;
+  min-height: 380px;
+  padding: 2rem 1.5rem;
   border-radius: 1rem;
-  box-shadow: 0 4px 12px var(--mainpage-box-shadow);
+  box-shadow: var(--fp-card-shadow);
   text-decoration: none;
-  font-weight: bold;
-  font-size: 1.1rem;
-  transition: box-shadow 0.2s, transform 0.2s;
-  background: #fff;
-  color: #333;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  border: 1px solid var(--fp-card-border);
+  background: var(--fp-card-bg);
+  color: var(--fp-card-text);
 }
 
 .fp-card:hover {
-  box-shadow: 0 8px 20px var(--mainpage-box-shadow-hover);
-  transform: translateY(-4px) scale(1.04);
+  box-shadow: var(--fp-card-shadow-hover);
+  transform: translateY(-8px);
+  text-decoration: none;
+  color: var(--fp-card-text);
 }
 
 .fp-card-icon {
-  font-size: 2.5rem;
-  margin-bottom: 0.5rem;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3rem;
 }
 
 .fp-card-title {
-  font-size: 1.15rem;
-  margin-bottom: 0.3rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+  color: var(--fp-card-text);
 }
 
 .fp-card-desc {
-  font-size: 0.95rem;
-  font-weight: 400;
   color: var(--mainpage-gray);
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+  text-align: center;
+  height: 55px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fp-card-features {
+  text-align: left;
+  padding-left: 20px;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
+}
+
+.fp-card-features li::marker {
+  font-size: 0.7em;
+  font-weight: bold;
+}
+
+.fp-card-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 8px 20px;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.fp-card-button:hover {
+  transform: translateY(-2px);
+  text-decoration: none;
+  color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 /* 초등(그린) 테마 */
-.fp-card-green .fp-card {
-  background: linear-gradient(135deg, #a8e063 0%, #56ab2f 100%);
-  color: #fff;
+
+.fp-card-green .fp-card-button {
+  background: #7eba49;
 }
-.fp-card-green .fp-card-desc {
-  color: #f3ffe5;
+
+.fp-card-green .fp-card-button:hover {
+  background: #438508;
+  box-shadow: 0 4px 12px rgba(67, 133, 8, 0.3);
 }
 
 /* 중고등(블루) 테마 */
-.fp-card-blue .fp-card {
-  background: linear-gradient(135deg, #56ccf2 0%, #2f80ed 100%);
-  color: #fff;
+
+.fp-card-blue .fp-card-button {
+  background: #4c8df6;
 }
-.fp-card-blue .fp-card-desc {
-  color: #e9f5ff;
+
+.fp-card-blue .fp-card-button:hover {
+  background: #30599c;
+  box-shadow: 0 4px 12px rgba(48, 89, 156, 0.3);
 }
 
 /* 다운로드 버튼 스타일 (초등: 그린, 중고등: 블루) */
-.fp-download-btn-wrap {
-  text-align: center;
-  margin: 18px 0 22px 0;
+.fp-download-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px solid var(--fp-card-border);
+  border-radius: 12px;
+  padding: 16px 36px;
+  background: var(--fp-card-bg);
+  color: var(--fp-card-text);
+  text-decoration: none;
+  transition: transform 0.3s ease;
+}
+
+.fp-download-container:hover {
+  text-decoration: none;
+  transform: scale(1.02);
+  transition: transform 0.3s ease;
+}
+
+.fp-download-container:hover .fp-download-content,
+.fp-download-container:hover .fp-download-btn {
+  text-decoration: none;
+}
+
+.fp-download-content {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .fp-download-btn {
@@ -79,51 +269,94 @@
   font-weight: bold;
   font-size: 1.15rem;
   border-radius: 12px;
-  box-shadow: 0 2px 10px rgba(44,123,228,0.13);
+  background: var(--fp-download-btn-bg);
+  border: 1px solid var(--fp-download-btn-border);
+  color: var(--fp-download-btn-text);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
   text-decoration: none;
-  transition: background 0.2s, box-shadow 0.2s, transform 0.2s;
-  border: none;
+  transition: all 0.2s ease;
   outline: none;
   cursor: pointer;
 }
 
+.fp-download-btn:hover {
+  background: var(--fp-download-btn-hover-bg);
+  border-color: var(--fp-download-btn-hover-border);
+  color: var(--fp-download-btn-text);
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  transform: translateY(-2px);
+}
+
 /* 초등(그린) 버튼 */
 .fp-download-btn-green {
-  background: linear-gradient(90deg, #a8e063 0%, #56ab2f 100%);
-  color: #fff;
+  border-color: #7eba49;
+  color: #7eba49;
 }
-.fp-download-btn-green:hover {
-  background: linear-gradient(90deg, #56ab2f 0%, #a8e063 100%);
-  box-shadow: 0 4px 18px rgba(88,171,47,0.23);
-  transform: translateY(-2px) scale(1.04);
+
+.fp-download-btn-green:hover .fp-download-btn {
+  background-color: #7eba49;
+  color: #ffffff;
+}
+
+.fp-download-btn-green:hover .fp-download-content {
+  color: #7eba49;
 }
 
 /* 중고등(블루) 버튼 */
 .fp-download-btn-blue {
-  background: linear-gradient(90deg, #56ccf2 0%, #2a7be4 100%);
-  color: #fff;
-}
-.fp-download-btn-blue:hover {
-  background: linear-gradient(90deg, #2a7be4 0%, #56ccf2 100%);
-  box-shadow: 0 4px 18px rgba(44,123,228,0.23);
-  transform: translateY(-2px) scale(1.04);
+  border-color: #4c8df6;
+  color: #4c8df6;
 }
 
-@media (max-width: 750px) {
+.fp-download-btn-blue:hover .fp-download-btn {
+  background-color: #4c8df6;
+  color: #ffffff;
+}
+
+.fp-download-btn-blue:hover .fp-download-content {
+  color: #4c8df6;
+}
+
+@media (max-width: 1024px) {
+  .fp-card-container {
+    gap: 1.5rem;
+  }
+  .fp-card {
+    width: 280px;
+    min-height: 340px;
+  }
+}
+
+@media (max-width: 768px) {
   .fp-card-container {
     flex-direction: column;
     align-items: center;
-    gap: 1rem;
+    gap: 1.5rem;
   }
   .fp-card {
+    width: 85vw;
+    max-width: 320px;
+    padding: 1.5rem 1rem;
+    min-height: 300px;
+  }
+  .fp-download-btn {
+    width: 85vw;
+    max-width: 320px;
+    font-size: 1rem;
+    padding: 14px 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .fp-card {
     width: 90vw;
-    max-width: 340px;
-    padding: 1.2rem 0.5rem;
+    max-width: 300px;
+    padding: 1.2rem 0.8rem;
+    min-height: 280px;
   }
   .fp-download-btn {
     width: 90vw;
-    max-width: 340px;
-    font-size: 1rem;
-    padding: 14px 0;
+    max-width: 300px;
   }
 }
