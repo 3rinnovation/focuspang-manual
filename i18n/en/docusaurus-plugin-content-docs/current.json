@@ -15,13 +15,13 @@
     "message": "for Teacher",
     "description": "The label for category 선생님 in sidebar elementarySidebar"
   },
-  "sidebar.elementarySidebar.category.4. 수업 진행": {
+  "sidebar.elementarySidebar.category.5. 수업 진행": {
     "message": "4. Go to a class",
-    "description": "The label for category 4. 수업 진행 in sidebar elementarySidebar"
+    "description": "The label for category 5. 수업 진행 in sidebar elementarySidebar"
   },
-  "sidebar.elementarySidebar.category.5. 정보 변경": {
+  "sidebar.elementarySidebar.category.6. 정보 변경": {
     "message": "5. Edit Information",
-    "description": "The label for category 5. 정보 변경 in sidebar elementarySidebar"
+    "description": "The label for category 6. 정보 변경 in sidebar elementarySidebar"
   },
   "sidebar.elementarySidebar.category.학생": {
     "message": "for Student",
@@ -47,9 +47,9 @@
     "message": "for Teacher",
     "description": "The label for category 선생님 in sidebar middlehighSidebar"
   },
-  "sidebar.middlehighSidebar.category.3. 수업 진행": {
-    "message": "3. Go to a class",
-    "description": "The label for category 3. 수업 진행 in sidebar middlehighSidebar"
+  "sidebar.middlehighSidebar.category.4. 수업 진행": {
+    "message": "4. Go to a class",
+    "description": "The label for category 4. 수업 진행 in sidebar middlehighSidebar"
   },
   "sidebar.middlehighSidebar.category.학생": {
     "message": "for Student",

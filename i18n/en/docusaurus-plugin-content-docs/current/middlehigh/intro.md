@@ -7,33 +7,45 @@ slug: /middlehigh
 # Getting Started with focuspang
 
 Hello!
-focuspang is a SEL (Social Emotional Learning) tool that helps you check your own attention level during class and join activities with your teacher in real time.
-For example, focuspang provides activities like the Attention Thermometer and real-time attention checks.
-This guide helps you start focuspang step by step, so anyone can follow along easily.
+
+focuspang is a **SEL (Social-Emotional Learning) tool** that allows students to check their own attention and concentration state during class time and engage in real-time activities with their teacher.
+For example, it provides various classroom activities such as attention thermometers and real-time attention checks.
+
+Choose the guide that's right for you below (Administrator, Teacher, Student) and start using focuspang right away!
 
 <!-- Card-style guide: HTML/CSS only, no JSX style props -->
-<div class="fp-card-container fp-card-blue">
-  <a class="fp-card" href="/docs/middlehigh/student-guide">
+<div class="fp-card-container fp-card-green">
+  <a class="fp-card" href="middlehigh/admin-guide">
+    <div class="fp-card-icon">🛠️</div>
+    <div class="fp-card-title">Administrator Guid</div>
+    <div class="fp-card-desc">For school administrators</div>
+    <ul class="fp-card-features">
+      <li>Administrator roles</li>
+      <li>Teacher account management</li>
+    </ul>
+    <div class="fp-card-button">Get Started →</div>
+  </a>
+  <a class="fp-card" href="middlehigh/teacher-guide">
+    <div class="fp-card-icon">✒️</div>
+    <div class="fp-card-title">Teacher Guide</div>
+    <div class="fp-card-desc"> For teachers conducting classes</div>
+    <ul class="fp-card-features">
+      <li>Installation and login</li>
+      <li>Conducting classes</li>
+    </ul>
+    <div class="fp-card-button">Get Started →</div>
+  </a>
+  <a class="fp-card" href="middlehigh/student-guide">
     <div class="fp-card-icon">📚</div>
     <div class="fp-card-title">Student Guide</div>
-    <div class="fp-card-desc">For middle & high school students</div>
-  </a>
-  <a class="fp-card" href="/docs/middlehigh/teacher-guide">
-    <div class="fp-card-icon">👩‍🏫</div>
-    <div class="fp-card-title">Teacher Guide</div>
-    <div class="fp-card-desc">For teachers conducting classes</div>
-  </a>
-  <a class="fp-card" href="/docs/middlehigh/admin-guide">
-    <div class="fp-card-icon">🛠️</div>
-    <div class="fp-card-title">Administrator Guide</div>
-    <div class="fp-card-desc">For school administrators</div>
+    <div class="fp-card-desc">For students participating in classes</div>
+    <ul class="fp-card-features">
+      <li>Installation and login</li>
+      <li>Class participation</li>
+    </ul>
+    <div class="fp-card-button">Get Started →</div>
   </a>
 </div>
 
----
-
-Please select the guide that fits you (Student, Teacher, or Administrator) below.
-Follow each guide step by step, and you can start using focuspang right away.
-
-If you have any questions while following the guide, you can always come back to this page.
-Feel free to ask your teacher or administrator for help!
+Each guide includes step-by-step screenshots so anyone can easily follow along.\
+If you have any questions at first, please feel free to contact our **customer support team** at any time.
