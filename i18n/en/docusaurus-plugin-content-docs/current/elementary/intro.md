@@ -8,10 +8,10 @@ slug: /elementary
 
 Hello!
 
-focuspang is a **SEL (Social-Emotional Learning) tool** that allows students to check their own attention and concentration state during class time and engage in real-time activities with their teacher.
+**focuspang** is a **SEL (Social-Emotional Learning) tool** that allows students to check their own attention and concentration state during class time and engage in real-time activities with their teacher.
 For example, it provides various classroom activities such as attention thermometers and real-time attention checks.
 
-Choose the guide that's right for you below (Administrator, Teacher, Student) and start using focuspang right away!
+Please select the guide above that fits you (Student, Teacher, or Administrator) and start using focuspang right away!
 
 <!-- Card-style guide: HTML/CSS only, no JSX style props -->
 <div class="fp-card-container fp-card-green">
