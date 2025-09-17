@@ -1,11 +1,4 @@
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
   --ifm-font-family-base: "Pretendard-Regular";
   --ifm-font-family-monospace: "Pretendard-Regular";
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
@@ -28,13 +21,6 @@
 }
 
 [data-theme="dark"] {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: #21af90;
-  --ifm-color-primary-darker: #1fa588;
-  --ifm-color-primary-darkest: #1a8870;
-  --ifm-color-primary-light: #29d5b0;
-  --ifm-color-primary-lighter: #32d8b4;
-  --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
   --mainpage-bg-color: #292929;
   --mainpage-gray: #d6d6d6;
@@ -69,6 +55,11 @@ body {
   font-size: 1.2rem;
 }
 
+/* 사이드바 폰트 크기 */
+.theme-doc-sidebar-container {
+  font-size: 1rem;
+}
+
 /* 해시 링크 (제목에 # 붙으면서 직접 링크) 숨기기 */
 .hash-link {
   display: none;
@@ -76,16 +67,21 @@ body {
 
 .sidebar-intro {
   font-weight: 700;
-  color: #333;
+
   border-bottom: 2px solid #ddd;
   margin-bottom: 0.75rem;
   padding-bottom: 0.5rem;
+}
+/* 사이드바 메뉴 링크 색상 강제 적용 */
+.theme-doc-sidebar-container .menu__link {
+  color: #3f4144 !important;
 }
 
 .theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1
   > .menu__list-item-collapsible
   > .menu__link--sublist {
   font-weight: 700;
+  color: #3f4144;
 }
 
 .imgDefaultSize {
