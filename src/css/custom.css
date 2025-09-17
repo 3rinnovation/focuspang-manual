@@ -231,91 +231,108 @@ html[data-theme="light"] .alert--danger {
   box-shadow: 0 4px 12px rgba(48, 89, 156, 0.3);
 }
 
-/* 다운로드 버튼 스타일 (초등: 그린, 중고등: 블루) */
+/*
+  다운로드 버튼 스타일
+  - 초등: 그린계열(fp-card-green)
+  - 중고등: 블루계열(fp-card-blue)
+*/
+
 .fp-download-container {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  gap: 10px;
-  border: 1px solid var(--fp-card-border);
+
+  padding: 24px 36px;
+  border: 1.5px solid var(--fp-card-border);
   border-radius: 12px;
-  padding: 16px 36px;
   background: var(--fp-card-bg);
+
   color: var(--fp-card-text);
   text-decoration: none;
-  transition: transform 0.3s ease;
 }
 
-.fp-download-container:hover {
-  text-decoration: none;
-  transform: scale(1.02);
-  transition: transform 0.3s ease;
+.fp-download-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--fp-card-text);
 }
 
-.fp-download-container:hover .fp-download-content,
-.fp-download-container:hover .fp-download-btn {
-  text-decoration: none;
+.fp-download-desc {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+
+  color: var(--mainpage-gray);
+  font-size: 1rem;
+  text-align: center;
 }
 
-.fp-download-content {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
+.fp-download-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
 
-.fp-download-btn {
-  display: inline-block;
-  padding: 16px 36px;
-  font-weight: bold;
-  font-size: 1.15rem;
+  margin-left: auto;
+  padding: 8px 16px;
   border-radius: 12px;
-  background: var(--fp-download-btn-bg);
-  border: 1px solid var(--fp-download-btn-border);
-  color: var(--fp-download-btn-text);
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+
   text-decoration: none;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+
   transition: all 0.2s ease;
   outline: none;
   cursor: pointer;
 }
 
-.fp-download-btn:hover {
-  background: var(--fp-download-btn-hover-bg);
-  border-color: var(--fp-download-btn-hover-border);
-  color: var(--fp-download-btn-text);
-  text-decoration: none;
+.fp-download-button p {
+  margin: 0;
+}
+
+.fp-download-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.fp-download-button:hover {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  text-decoration: none;
+  color: #fff;
   transform: translateY(-2px);
 }
 
-/* 초등(그린) 버튼 */
-.fp-download-btn-green {
-  border-color: #7eba49;
-  color: #7eba49;
+.fp-download-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+
+  color: #fff;
 }
 
-.fp-download-btn-green:hover .fp-download-btn {
-  background-color: #7eba49;
-  color: #ffffff;
+/* 초등(그린) 테마 */
+
+.fp-download-green .fp-download-button {
+  background: #7eba49;
 }
 
-.fp-download-btn-green:hover .fp-download-content {
-  color: #7eba49;
+.fp-download-green .fp-download-button:hover {
+  background: #438508;
+  box-shadow: 0 4px 12px rgba(67, 133, 8, 0.3);
 }
 
-/* 중고등(블루) 버튼 */
-.fp-download-btn-blue {
-  border-color: #4c8df6;
-  color: #4c8df6;
+/* 중고등(블루) 테마 */
+
+.fp-download-blue .fp-download-button {
+  background: #4c8df6;
 }
 
-.fp-download-btn-blue:hover .fp-download-btn {
-  background-color: #4c8df6;
-  color: #ffffff;
-}
-
-.fp-download-btn-blue:hover .fp-download-content {
-  color: #4c8df6;
+.fp-download-blue .fp-download-button:hover {
+  background: #30599c;
+  box-shadow: 0 4px 12px rgba(48, 89, 156, 0.3);
 }
 
 @media (max-width: 1024px) {
