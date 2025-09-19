@@ -7,59 +7,103 @@ import Image from "@site/src/components/Image";
 
 # 3. Account Management
 
-## What is account management?
+One of the administrator’s key responsibilities is managing the accounts of teachers who use focuspang.
 
-Account management is where you control all the teacher and student accounts at your school.
-You can approve new teachers, manage existing accounts, and help when teachers have problems with their accounts.
+## Approving Teacher Accounts
 
-## How to manage accounts
+After a teacher completes registration, their account must be approved by the administrator before it can be used.
 
-### Adding new administrators
+### Why is approval required?
 
-You can add other teachers as administrators by clicking the **[Add Admin]** button.
-The new administrator will have the same permissions as you do.
+- **Enhanced security**: Only approved staff can access the system
+- **Identity verification**: Confirm that the applicant is an actual school staff member
+- **Access control**: Ensure appropriate roles and access are assigned
+
+### Approval Process
+
+** 1. Pending Approval Notification**
+On the administrator page, you can view accounts that are waiting for approv
 
 <Image src="/img/en/elementary/admin/03-01.jpg" size="lg" />
 
-### Managing teacher accounts
-
-You can manage teacher accounts in several ways:
-
-- **Suspend**: Temporarily disable an account (for example, when a teacher is on leave)
-- **Delete**: Remove an account completely (for example, when a teacher retires or transfers)
-- **Edit information**: Change a teacher's name or other details
-- **Reset password**: Help teachers who forgot their passwords
+** 2. Manage Approval Status**
+Click the [Status] icon to review pending accounts and approve them.
 
 <Image src="/img/en/elementary/admin/03-02.jpg" size="lg" />
-
-### Managing student accounts
-
-You can **edit student information** like names and student ID numbers when needed.
-
 <Image src="/img/en/elementary/admin/03-03.jpg" size="lg" />
 
-### Approving new teacher accounts
+:::tip Approval Criteria
 
-This is one of your most important tasks as an administrator.
+- Verify that the applicant is a teacher at the school
+- Check the accuracy of the registration information
+- Confirm there are no duplicate accounts with existing teachers
+- If necessary, verify identity by directly contacting the teacher
 
-#### Step 1: Teachers register first
+:::
 
-After a teacher completes registration, they cannot use their account until you approve it.
+## Adding a New Administrator
+
+### When to Add Another Administrator
+
+- To reduce the workload of the current administrator
+- To ensure backup when the main administrator is unavailable
+- To assign administrators for specific departments
+- To provide a transition period when changing administrators
+
+### How to Add an Administrator
+
+Click the [**Add Administrator**] button to create a new administrator account.
+
+:::danger Note
+
+Newly added administrators have the same level of authority as the original administrator. They can access all account management functions, so choose carefully.
+
+:::
 
 <Image src="/img/en/elementary/admin/03-04.jpg" size="lg" />
 
-#### Step 2: Check pending approvals
+## Managing Existing Accounts
 
-You can see **accounts waiting for approval** by clicking the **[Status]** icon on the admin page.
+### Account Status Management
+
+Administrators can suspend, delete, edit, or reset passwords for both teacher and administrator accounts.
+
+**1. Suspending an Account**
+
+- Used for temporary cases such as leave of absence or sick leave
+- Login is disabled, but existing data is preserved
+- Accounts can be reactivated at any time
+
+**2. Deleting an Account**
+
+- Used for permanent cases such as resignation or transfer
+- Deleted accounts cannot be restored
+- If needed, transfer related class data before deletion
+
+**3. Editing Information**
+
+- The following fields can be modified: name, account type
+
+**4. Resetting Passwords**
+
+- Used when a password is lost or a security issue occurs
+- Password is reset to a temporary default (0000)
 
 <Image src="/img/en/elementary/admin/03-06.jpg" size="lg" />
 
-#### Step 3: Approve the accounts
+## Managing Student Information
 
-Review the teacher's information and approve their account so they can start using focuspang.
+### Administrator Rights for Student Information
+
+Administrators can edit basic student account details.
+
+- **Edit name**: For legal name changes or correcting input errors
+- **Edit student ID**: For system changes or corrections
+
+### Important Notes for Student Information Management
+
+- Always consult the homeroom teacher before making changes
+- Keep a record of all changes made
+- Follow privacy protection regulations
 
 <Image src="/img/en/elementary/admin/03-05.jpg" size="lg" />
-
-:::tip Why do accounts need approval?
-This approval process helps keep your school's focuspang system secure by making sure only authorized teachers can access student information.
-:::
