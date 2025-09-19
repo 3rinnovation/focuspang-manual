@@ -15,14 +15,6 @@
     "message": "for Teacher",
     "description": "The label for category 선생님 in sidebar elementarySidebar"
   },
-  "sidebar.elementarySidebar.category.5. 수업 진행": {
-    "message": "4. Go to a class",
-    "description": "The label for category 5. 수업 진행 in sidebar elementarySidebar"
-  },
-  "sidebar.elementarySidebar.category.6. 정보 변경": {
-    "message": "5. Edit Information",
-    "description": "The label for category 6. 정보 변경 in sidebar elementarySidebar"
-  },
   "sidebar.elementarySidebar.category.학생": {
     "message": "for Student",
     "description": "The label for category 학생 in sidebar elementarySidebar"
@@ -31,9 +23,17 @@
     "message": "1. How to install",
     "description": "The label for category 1. 설치 in sidebar elementarySidebar"
   },
-  "sidebar.elementarySidebar.category.3. 수업 참여": {
-    "message": "3. Attend a class",
-    "description": "The label for category 3. 수업 참여 in sidebar elementarySidebar"
+  "sidebar.elementarySidebar.category.3. 반 / 수업 만들기": {
+    "message": "3. Creating a Class / Lesson",
+    "description": "The label for category 3. 반 / 수업 만들기 in sidebar elementarySidebar"
+  },
+  "sidebar.elementarySidebar.category.4. 수업 진행": {
+    "message": "4. Go to a class",
+    "description": "The label for category 4. 수업 진행 in sidebar elementarySidebar"
+  },
+  "sidebar.elementarySidebar.category.5. 정보 변경": {
+    "message": "5. Edit Information",
+    "description": "The label for category 6. 정보 변경 in sidebar elementarySidebar"
   },
   "sidebar.middlehighSidebar.doc.중고등학교 포커스팡 가이드": {
     "message": "focuspang Guide for Middle & High School",
