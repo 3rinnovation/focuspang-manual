@@ -27,6 +27,10 @@
     "message": "3. Creating a Class / Lesson",
     "description": "The label for category 3. 반 / 수업 만들기 in sidebar elementarySidebar"
   },
+  "sidebar.elementarySidebar.category.3. 수업 참여": {
+    "message": "3. Joining Classes",
+    "description": "The label for category 3. 수업 참여 in sidebar elementarySidebar"
+  },
   "sidebar.elementarySidebar.category.4. 수업 진행": {
     "message": "4. Go to a class",
     "description": "The label for category 4. 수업 진행 in sidebar elementarySidebar"
