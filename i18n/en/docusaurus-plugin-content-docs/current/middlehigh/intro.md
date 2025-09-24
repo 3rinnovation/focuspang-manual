@@ -48,4 +48,4 @@ Choose the guide that's right for you below (Administrator, Teacher, Student) an
 </div>
 
 Each guide includes step-by-step screenshots so anyone can easily follow along.\
-If you have any questions at first, please feel free to contact our **customer support team** at any time.
+If you have any questions, please feel free to contact our **customer support team** at any time.
