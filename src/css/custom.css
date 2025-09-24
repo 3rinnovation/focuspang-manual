@@ -262,7 +262,7 @@ html[data-theme="light"] .alert--danger {
   align-items: center;
   justify-content: space-between;
 
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
   padding: 24px 36px;
   border: 1.5px solid var(--fp-card-border);
   border-radius: 12px;

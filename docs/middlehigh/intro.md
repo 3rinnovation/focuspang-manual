@@ -18,7 +18,7 @@ slug: /middlehigh
   <a class="fp-card" href="/docs/middlehigh/admin-guide">
     <div class="fp-card-icon">🛠️</div>
     <div class="fp-card-title">관리자 가이드</div>
-    <div class="fp-card-desc">학교 관리자</div>
+    <div class="fp-card-desc">학교 관리자용</div>
     <ul class="fp-card-features">
       <li>관리자 역할</li>
       <li>선생님 계정 관리</li>
@@ -48,4 +48,4 @@ slug: /middlehigh
 </div>
 
 각 가이드는 단계별 스크린샷을 포함하고 있어 누구나 쉽게 따라할 수 있습니다.\
-추가로 궁금한 점이 있으시면 언제든 **고객지원팀에 문의**해주세요.
+추가로 궁금한 점이 있으시면 언제든 **고객지원팀에 문의**해 주세요.
