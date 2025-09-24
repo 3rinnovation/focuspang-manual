@@ -6,6 +6,7 @@
   --mainpage-gray: #595959;
   --mainpage-box-shadow: rgba(0, 0, 0, 0.1);
   --mainpage-box-shadow-hover: rgba(0, 0, 0, 0.15);
+  --sidebar: #3f4144;
   --fp-card-shadow: 0 2px 8px rgba(0, 0, 0, 0.04),
     0 4px 16px rgba(0, 0, 0, 0.08);
   --fp-card-shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.08),
@@ -18,6 +19,15 @@
   --fp-download-btn-text: #333333;
   --fp-download-btn-hover-bg: #f8f8f8;
   --fp-download-btn-hover-border: #d0d0d0;
+  --theme-green-light: #c4e699;
+  --theme-green-md: #7eba49;
+  --theme-green-dark: #438508;
+  --theme-blue-light: #cbd9fb;
+  --theme-blue-md: #4c8df6;
+  --theme-blue-dark: #30599c;
+  --theme-yellow-light: #ffefc1;
+  --theme-yellow-md: #fcbf08;
+  --theme-yellow-dark: #b88f1c;
 }
 
 [data-theme="dark"] {
@@ -26,6 +36,7 @@
   --mainpage-gray: #d6d6d6;
   --mainpage-box-shadow: rgba(0, 0, 0, 0.3);
   --mainpage-box-shadow-hover: rgba(0, 0, 0, 0.4);
+  --sidebar: #d6d6d6;
   --fp-card-shadow: 0 2px 8px rgba(0, 0, 0, 0.2), 0 4px 16px rgba(0, 0, 0, 0.3);
   --fp-card-shadow-hover: 0 4px 16px rgba(0, 0, 0, 0.3),
     0 8px 32px rgba(0, 0, 0, 0.4);
@@ -37,6 +48,15 @@
   --fp-download-btn-text: #ffffff;
   --fp-download-btn-hover-bg: #4a4a4a;
   --fp-download-btn-hover-border: #606060;
+  --theme-green-light: #dbe7cb;
+  --theme-green-md: #8ebe64;
+  --theme-green-dark: #5a8a31;
+  --theme-blue-light: #e5ebfb;
+  --theme-blue-md: #72a4f4;
+  --theme-blue-dark: #4b73b2;
+  --theme-yellow-light: #fcf4db;
+  --theme-yellow-md: #fbd256;
+  --theme-yellow-dark: #deb955;
 }
 
 html {
@@ -74,14 +94,14 @@ body {
 }
 /* 사이드바 메뉴 링크 색상 강제 적용 */
 .theme-doc-sidebar-container .menu__link {
-  color: #3f4144 !important;
+  color: var(--sidebar) !important;
 }
 
 .theme-doc-sidebar-item-category.theme-doc-sidebar-item-category-level-1
   > .menu__list-item-collapsible
   > .menu__link--sublist {
   font-weight: 700;
-  color: #3f4144;
+  color: var(--sidebar);
 }
 
 .imgDefaultSize {
@@ -119,24 +139,6 @@ html[data-theme="light"] .alert--danger {
   - 중고등: 블루계열(fp-card-blue)
 */
 
-&:active {
-  color: #000;
-}
-&:focus {
-  color: #000;
-}
-&:visited {
-  color: #000;
-}
-&:link {
-  color: #000;
-}
-&:hover {
-  color: #000;
-}
-&:active {
-  color: #000;
-}
 .fp-card-container {
   display: flex;
   justify-content: center;
@@ -231,22 +233,22 @@ html[data-theme="light"] .alert--danger {
 /* 초등(그린) 테마 */
 
 .fp-card-green .fp-card-button {
-  background: #7eba49;
+  background: var(--theme-green-md);
 }
 
 .fp-card-green .fp-card-button:hover {
-  background: #438508;
+  background: var(--theme-green-dark);
   box-shadow: 0 4px 12px rgba(67, 133, 8, 0.3);
 }
 
 /* 중고등(블루) 테마 */
 
 .fp-card-blue .fp-card-button {
-  background: #4c8df6;
+  background: var(--theme-blue-md);
 }
 
 .fp-card-blue .fp-card-button:hover {
-  background: #30599c;
+  background: var(--theme-blue-dark);
   box-shadow: 0 4px 12px rgba(48, 89, 156, 0.3);
 }
 
@@ -336,22 +338,22 @@ html[data-theme="light"] .alert--danger {
 /* 초등(그린) 테마 */
 
 .fp-download-green .fp-download-button {
-  background: #7eba49;
+  background: var(--theme-green-md);
 }
 
 .fp-download-green .fp-download-button:hover {
-  background: #438508;
+  background: var(--theme-green-dark);
   box-shadow: 0 4px 12px rgba(67, 133, 8, 0.3);
 }
 
 /* 중고등(블루) 테마 */
 
 .fp-download-blue .fp-download-button {
-  background: #4c8df6;
+  background: var(--theme-blue-md);
 }
 
 .fp-download-blue .fp-download-button:hover {
-  background: #30599c;
+  background: var(--theme-blue-dark);
   box-shadow: 0 4px 12px rgba(48, 89, 156, 0.3);
 }
 

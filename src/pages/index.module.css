@@ -68,15 +68,15 @@
 }
 
 .cardGreen {
-  background-color: #c4e699;
+  background-color: var(--theme-green-light);
 }
 
 .cardBlue {
-  background-color: #cbd9fb;
+  background-color: var(--theme-blue-light);
 }
 
 .cardYellow {
-  background-color: #ffefc1;
+  background-color: var(--theme-yellow-light);
 }
 
 .cardIcon {
@@ -130,27 +130,27 @@
 }
 
 .cardGreen .cardButton {
-  background: #7eba49;
+  background: var(--theme-green-md);
 }
 
 .cardGreen .cardButton:hover {
-  background: #438508;
+  background: var(--theme-green-dark);
 }
 
 .cardBlue .cardButton {
-  background: #4c8df6;
+  background: var(--theme-blue-md);
 }
 
 .cardBlue .cardButton:hover {
-  background: #30599c;
+  background: var(--theme-blue-dark);
 }
 
 .cardYellow .cardButton {
-  background: #fcbf08;
+  background: var(--theme-yellow-md);
 }
 
 .cardYellow .cardButton:hover {
-  background: #b88f1c;
+  background: var(--theme-yellow-dark);
 }
 
 @media (max-width: 768px) {
