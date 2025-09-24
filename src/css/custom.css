@@ -108,12 +108,35 @@ html[data-theme="light"] .alert--danger {
   text-decoration: none;
 }
 
+.link-center {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
 /*
   포커스팡 메뉴얼 카드형 안내 스타일
   - 초등: 그린계열(fp-card-green)
   - 중고등: 블루계열(fp-card-blue)
 */
 
+&:active {
+  color: #000;
+}
+&:focus {
+  color: #000;
+}
+&:visited {
+  color: #000;
+}
+&:link {
+  color: #000;
+}
+&:hover {
+  color: #000;
+}
+&:active {
+  color: #000;
+}
 .fp-card-container {
   display: flex;
   justify-content: center;
